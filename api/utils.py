@@ -1,8 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
+import os
+from dotenv import load_dotenv
 
-api_key = 'REDACTED_API_KEY'
-api_url = 'https://api.fuelix.ai/v1/embeddings'
+load_dotenv()
+
+api_key = os.getenv('FUELIX_API_KEY')
+api_url = os.getenv('FUELIX_EMBEDDINGS_URL', 'https://api.fuelix.ai/v1/embeddings')
+
 headers = {
     'Content-Type': 'application/json',
     'Authorization': f'Bearer {api_key}'
@@ -17,26 +22,21 @@ def extract_structured_content(content_element):
     """Extract content while preserving tables, lists, and hierarchy"""
     result = []
     
-    # Process all children elements
     for element in content_element.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'table', 'div'], recursive=True):
-        # Skip if this element is inside another element we'll process
         if element.find_parent(['table', 'ul', 'ol']) and element.name not in ['table', 'ul', 'ol']:
             continue
             
-        # Handle headings - use [HEADING] markers to avoid markdown conflicts
         if element.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
             level = element.name[1]
             text = element.get_text(strip=True)
             if text:
                 result.append(f"\n[H{level}] {text}\n")
         
-        # Handle paragraphs
         elif element.name == 'p':
             text = element.get_text(strip=True)
-            if text and len(text) > 10:  # Filter out very short paragraphs
+            if text and len(text) > 10:
                 result.append(text)
         
-        # Handle unordered lists
         elif element.name == 'ul':
             items = element.find_all('li', recursive=False)
             for item in items:
@@ -44,7 +44,6 @@ def extract_structured_content(content_element):
                 if text:
                     result.append(f"- {text}")
         
-        # Handle ordered lists
         elif element.name == 'ol':
             items = element.find_all('li', recursive=False)
             for idx, item in enumerate(items, 1):
@@ -52,21 +51,18 @@ def extract_structured_content(content_element):
                 if text:
                     result.append(f"{idx}. {text}")
         
-        # Handle tables (preserve structure as text)
         elif element.name == 'table':
             result.append("\n[TABLE]")
-            # Get headers
             headers = element.find_all('th')
             if headers:
                 header_text = " | ".join([h.get_text(strip=True) for h in headers])
                 result.append(header_text)
                 result.append("-" * len(header_text))
             
-            # Get rows
             rows = element.find_all('tr')
             for row in rows:
                 cells = row.find_all(['td', 'th'])
-                if cells and not all(c.name == 'th' for c in cells):  # Skip header row
+                if cells and not all(c.name == 'th' for c in cells):
                     row_text = " | ".join([c.get_text(strip=True) for c in cells])
                     if row_text.strip():
                         result.append(row_text)
@@ -75,15 +71,8 @@ def extract_structured_content(content_element):
     return '\n'.join(result)
 
 def web_scrape_data(url, save_debug=False):
-    """Scrape web content using BeautifulSoup
-    
-    Args:
-        url: URL to scrape
-        save_debug: If True, save raw HTML to debug_scraped.html (default: False)
-    """
     print(f"Fetching URL: {url}")
     
-    # Add headers to mimic a real browser
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }

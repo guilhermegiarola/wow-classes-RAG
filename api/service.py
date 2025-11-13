@@ -2,16 +2,18 @@ import json
 import requests
 import os
 from dotenv import load_dotenv
-from utils import web_scrape_data, generate_embedding_vector, split_into_chunks
 from pymilvus import MilvusClient
 from markdown_text_clean import clean_text
 
-# Load environment variables from .env file
+try:
+    from api.utils import web_scrape_data, generate_embedding_vector, split_into_chunks
+except ImportError:
+    from utils import web_scrape_data, generate_embedding_vector, split_into_chunks
+
 load_dotenv()
 
-# Get API credentials from environment variables
 api_key = os.getenv('FUELIX_API_KEY')
-api_url = os.getenv('FUELIX_API_URL', 'https://api.fuelix.ai/v1/chat/completions')
+api_url = os.getenv('FUELIX_COMPLETIONS_URL', 'https://api.fuelix.ai/v1/chat/completions')
 
 if not api_key:
     raise ValueError("FUELIX_API_KEY not found in environment variables. Please create a .env file.")
@@ -22,19 +24,16 @@ headers = {
 }
 
 def get_article_content(article_content: str, debug_filename='debug_extracted_text.txt'):
-    #get the article content from the soup
     
     with open('query.txt', 'r', encoding='utf-8') as f:
         query_template = f.read()
     
-    # Insert article content into the template
     llm_query = query_template.format(article_content=article_content)
 
     llm_response = generate_llm_response(llm_query)
     return llm_response
 
 def generate_llm_response(llm_query: str):
-    #use the fuelixapi to generate a response to the llm query
     try:
         response = requests.post(api_url, headers=headers, json={'model': 'gpt-4o-mini', 'messages': [{'role': 'user', 'content': llm_query}]})
         response.raise_for_status()
@@ -42,7 +41,6 @@ def generate_llm_response(llm_query: str):
         response_json = response.json()
         print(f"LLM Response status: {response.status_code}")
         
-        # Extract the message content
         if 'choices' in response_json and len(response_json['choices']) > 0:
             message_content = response_json['choices'][0]['message']['content']
             return {'message': message_content}
@@ -58,24 +56,24 @@ def generate_llm_response(llm_query: str):
         return None
 
 def generate_vectorized_knowledge_base():
-    milvus_client = MilvusClient(uri="./milvus.db")
+    db_path = os.path.join(os.path.dirname(__file__), 'milvus.db')
+    milvus_client = MilvusClient(uri=db_path)
     collection_name = 'icy_veins'
 
+    if milvus_client.has_collection(collection_name):
+        milvus_client.drop_collection(collection_name)
+        print(f"Collection {collection_name} dropped")
+    
     milvus_client.create_collection(
         collection_name=collection_name, 
         dimension=1536,
         metric_type="IP",
         consistency_level="Bounded",
     )
-    
-    if milvus_client.has_collection(collection_name):
-        milvus_client.drop_collection(collection_name)
-        print(f"Collection {collection_name} dropped")
+    print(f"Collection {collection_name} created")
 
-    """Generate embeddings from already scraped class files"""
     print("Generating vectorized knowledge base from class files...")
     
-    # Create classes directory if it doesn't exist
     classes_dir = 'classes'
     if not os.path.exists(classes_dir):
         return {
@@ -83,7 +81,6 @@ def generate_vectorized_knowledge_base():
             'success': False
         }
     
-    # Load class keys
     with open('classes.json', 'r') as f:
         classes = json.load(f)
     
@@ -92,7 +89,6 @@ def generate_vectorized_knowledge_base():
     failed = 0
     total_chunks = 0
     
-    # Process each class file
     for class_key in classes.keys():
         file_path = f"{classes_dir}/{class_key}.txt"
         
@@ -104,7 +100,6 @@ def generate_vectorized_knowledge_base():
         print(f"\nProcessing: {class_key}")
         
         try:
-            # Read the class content
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
@@ -113,18 +108,15 @@ def generate_vectorized_knowledge_base():
                 failed += 1
                 continue
             
-            # Split content into chunks
             chunks = split_into_chunks(content, chunk_size=1000, overlap=100)
             print(f"Processing {len(chunks)} chunks...")
             
-            # Generate embeddings for each chunk
             chunks_processed = 0
             for chunk_idx, chunk in enumerate(chunks):
                 try:
                     response = generate_embedding_vector(chunk)
                     
                     if response and 'data' in response and response['data']:
-                        # Extract embedding and store
                         embedding = response['data'][0]['embedding']
                         
                         embeddings_data.append({
@@ -155,7 +147,6 @@ def generate_vectorized_knowledge_base():
             failed += 1
             continue
     
-    # Save embeddings to file
     if embeddings_data:
         milvus_client.insert(collection_name=collection_name, data=embeddings_data)
         print(f"\n✓ Saved {total_chunks} chunks from {successful} classes")
@@ -170,7 +161,6 @@ def generate_vectorized_knowledge_base():
     }
 
 def retrieve_most_relevant_documents(query: str):
-    #TODO: retrieve the most relevant documents from the vectorized knowledge base
     return {'message': 'Most relevant documents retrieved!'}
 
 def generate_knowledge_base():
@@ -237,8 +227,8 @@ def generate_knowledge_base():
     }
 
 def retrieve_answers(query_text: str):
-    #TODO: retrieve the answers from the most relevant documents
-    milvus_client = MilvusClient(uri="./milvus.db")
+    db_path = os.path.join(os.path.dirname(__file__), 'milvus.db')
+    milvus_client = MilvusClient(uri=db_path)
     
     # Generate embedding for the query
     embedding_response = generate_embedding_vector(query_text)
@@ -249,33 +239,60 @@ def retrieve_answers(query_text: str):
     
     query_embedding = embedding_response['data'][0]['embedding']
     
-    # Search for similar documents
+    # Search for similar documents (fetch more results for better coverage)
     search_res = milvus_client.search(
         collection_name='icy_veins', 
-        data=[query_embedding],  # Pass the raw embedding vector
-        limit=4,
+        data=[query_embedding],
+        limit=10,  # Fetch top candidates
         search_params={
             'metric_type': 'IP',
             'params': {}
         },
-        output_fields=['class_name', 'chunk_text'],
+        output_fields=['class_name', 'chunk_text', 'chunk_index'],
     )
     
-    context = "\n".join([f"[{result['class_name']}] {result['chunk_text']}" for result in search_res[0]])
-    # Clean out newline markers before applying clean_text
+    # Use the class from the top-scoring chunk (most relevant)
+    if not search_res[0]:
+        return {'message': 'No results found', 'success': False}
+    
+    top_class = search_res[0][0]['class_name']  # Class of the highest-scoring chunk
+    top_score = search_res[0][0]['distance']
+    
+    # Filter results to only include chunks from the most relevant class
+    filtered_results = [r for r in search_res[0] if r['class_name'] == top_class][:6]
+    
+    # Build context from filtered results
+    context_parts = []
+    for idx, result in enumerate(filtered_results, 1):
+        context_parts.append(f"[Chunk {idx} from {result['class_name']}]\n{result['chunk_text']}\n")
+    
+    context = "\n".join(context_parts)
     context = context.replace('\n', ' ').replace('\r', ' ')
     context = clean_text(context)
     
-    llm_query = f"""
-        You are a comprehensive World of Warcraft class guide analyzer. 
-        The context is:
-        {context}
-        The query is:
-        {query_text}
-        Please extract and organize all information in well-formatted markdown.
-        Try to answer the query based on the context, with focus on the query.
+    llm_query = f"""You are a World of Warcraft class guide expert. 
+    Answer only the user's question based on the provided context. 
+    Do not include any other information.
+
+    Context (from {top_class} guide):
+    {context}
+
+    User Question:
+    {query_text}
+
+    Instructions:
+    - Answer based ONLY on the provided context
+    - Focus specifically on {top_class}
+    - Format your response in clear, well-organized markdown
+    - If the context doesn't contain enough information, say so
+    - Be concise but comprehensive
     """
 
     llm_response = generate_llm_response(llm_query)
 
-    return {'message': 'Results retrieved', 'response': llm_response}
+    return {
+        'message': 'Results retrieved', 
+        'response': llm_response,
+        'source_class': top_class,
+        'confidence_score': top_score
+    }
