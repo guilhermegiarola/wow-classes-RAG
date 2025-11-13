@@ -1,0 +1,149 @@
+## Windwalker Monk Guide
+
+### 1. CLASS OVERVIEW
+
+- **Class/Spec Name and Role**: Windwalker Monk - Melee DPS
+- **Strengths and Weaknesses**:
+  - **Strengths**:
+    - High mobility
+    - Strong presence in Mythic+ dungeons
+    - Good burst damage during cooldown windows
+    - Can easily switch between single-target and AoE damage
+    - Varied talent choices for flexibility in playstyle
+  - **Weaknesses**:
+    - Historically lower DPS output compared to other classes in raids
+    - No unique immunities or utility abilities
+    - "Desirability" fluctuates based on the strength of Mistweaver and Brewmaster specs
+- **When to Play This Spec**: Optimal in Mythic+ and situations requiring strong mobility and switch targeting.
+- **Playstyle Description**: Windwalker Monks manage Energy and Chi to optimize a rotation of high-impact abilities. The gameplay focuses on fast-paced, dynamic interactions with a balance between damage dealing and resource management.
+
+### 2. ROTATION & ABILITIES
+
+#### Complete Priority Rotation
+
+1. **Opening Rotation/Opener Sequence**:
+   - Tiger Palm
+   - Rising Sun Kick
+   - Tiger Palm
+   - Invoke Xuen
+   - Storm, Earth, and Fire
+   - Rising Sun Kick
+   - Strike of the Windlord
+   - Fists of Fury
+   - Slicing Winds
+   - Tiger Palm
+   - Rising Sun Kick
+   - Whirling Dragon Punch
+   - Fists of Fury (if enough Haste)
+   - Celestial Conduit
+
+#### Single Target Rotation (Detailed Step-by-Step)
+
+1. **No Active Heart of the Jade Serpent**:
+   - Strike of the Windlord
+   - Celestial Conduit
+   - Rising Sun Kick (with Xuen's Battlegear buff)
+   - Tiger Palm (if <5 Chi and about to cap Energy)
+   - Spinning Crane Kick (with two stacks of Dance of Chi-Ji)
+   - Whirling Dragon Punch
+   - Crackling Jade Lightning (at 20 Last Emperor's Capacitor stacks)
+   - Fists of Fury
+   - Rising Sun Kick
+   - Blackout Kick (try not to overcap Teachings of the Monastery stacks)
+   - Chi Burst
+   - Spinning Crane Kick (with Dance of Chi-Ji)
+   - Crackling Jade Lightning (try not to overcap Last Emperor's Capacitor stacks)
+   - Blackout Kick
+
+2. **During Heart of the Jade Serpent**:
+   - Slicing Winds
+   - Fists of Fury
+   - Rising Sun Kick
+   - Spinning Crane Kick (with two stacks of Dance of Chi-Ji)
+   - Whirling Dragon Punch
+   - Tiger Palm
+   - Blackout Kick (with two stacks of Blackout Kick!)
+   - Spinning Crane Kick (with Dance of Chi-Ji)
+
+#### AoE/Cleave Rotation (Detailed Step-by-Step)
+
+1. **Opening Rotation**:
+   - Tiger Palm
+   - Tiger Palm (if less than 5 Chi)
+   - Invoke Xuen
+   - Storm, Earth, and Fire
+   - Strike of the Windlord
+   - Slicing Winds
+   - Fists of Fury
+   - Tiger Palm
+   - Rising Sun Kick
+   - Spinning Crane Kick (with two stacks of Dance of Chi-Ji)
+   - Whirling Dragon Punch
+   - Spinning Crane Kick
+   - Fists of Fury (if enough Haste and Heart of the Jade Serpent is still up)
+   - Celestial Conduit
+
+2. **While Heart of the Jade Serpent is Active**:
+   - Slicing Winds (with two stacks of Dance of Chi-Ji)
+   - Spinning Crane Kick (at 20 Last Emperor's Capacitor stacks)
+   - Crackling Jade Lightning
+   - Fists of Fury (at 20 Jade Ignition stacks)
+   - Spinning Crane Kick (with Xuen's Battlegear buff)
+   - Rising Sun Kick then Whirling Dragon Punch
+   - Rising Sun Kick
+   - Tiger Palm (if <5 Chi and about to cap Energy)
+   - Blackout Kick (with two stacks of Blackout Kick!)
+   - Spinning Crane Kick (with Dance of Chi-Ji)
+
+#### Key Abilities with Effects, Cooldowns, and Resource Costs
+
+- **Tiger Palm**: Generates 1 Chi; used to prevent Energy overflow.
+- **Rising Sun Kick**: Major Chi spender with high damage; cooldown 8 seconds.
+- **Fists of Fury**: AoE ability; high damage; cooldown 30 seconds.
+- **Invoke Xuen, the White Tiger**: Summons a tiger to attack enemies; significant damage boost; cooldown 3 minutes.
+- **Spinning Crane Kick**: AoE ability that can cost Chi depending on a proc; important while talented into Dance of Chi-Ji.
+- **Celestial Conduit**: Buffs ability damage; enhances impact during Heart of the Jade Serpent.
+  
+#### Ability Interactions and Synergies
+
+- **Blackout Kick**: Interacts with Mastery: Combo Strikes; try to use while managing the Chi buff.
+- **Dance of Chi-Ji**: Increases effectiveness of Spinning Crane Kick; requires proactive use to maximize DPS.
+  
+#### Rotation Conditionals
+
+- Use **Fists of Fury** as soon as it is available if you have enough Haste.
+- Prioritize **Rising Sun Kick** when the Xuen aura is active.
+- Monitor and avoid capping on Chi and Energy during high-damage cooldowns.
+
+#### Resource Management
+
+- **Chi Management**: Key to avoid capping on either Chi or Energy to maximize damage output.
+- Windwalkers will generate excess resources during cooldown windows; strategic use of abilities can prevent waste.
+
+### 3. ADDITIONAL INFO
+
+#### Tips and Tricks
+
+- Practice your rotation without cooldowns to master the basic skill flow.
+- Stay aware of cooldown timings and adjust your priorities based on buffs and procs active.
+- Use **Combat Assistant** for simplified rotations when learning the spec.
+
+#### Common Mistakes
+
+- Overcapping Energy and Chi during cooldowns.
+- Ignoring procs like Dance of Chi-Ji, leading to lost damage potential.
+- Failing to react promptly to proc opportunities for maximizing output.
+
+#### Macros
+
+- Recommended to use macros for abilities to avoid misclicks and reduce response time during raids/dungeons. Check the Addons page for examples.
+
+#### Addons
+
+- Tracking buffs, procs, and cooldowns can be simplified with specific addons (e.g., WeakAuras).
+- Look for DPS meters to analyze your performance and optimize your rotation further.
+
+#### Other Relevant Information
+
+- Windwalker Monks require practice to master due to their complex rotation and the need to react to various situations in combat effectively.
+- The spec remains competitive in Mythic+ dungeons, especially with the right talents and cooldown management.

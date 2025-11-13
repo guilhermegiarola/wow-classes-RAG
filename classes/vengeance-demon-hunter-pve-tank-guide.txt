@@ -1,0 +1,114 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec:** Vengeance Demon Hunter
+- **Role:** PvE Tank
+
+### Strengths and Weaknesses
+- **Strengths:**
+  - High mobility
+  - Burst AoE damage capabilities
+  - Access to strong defensive tools
+  - Strong crowd control options
+  - Good magic damage mitigation
+  - Provides group utility with **Chaos Brand**
+  
+- **Weaknesses:**
+  - Struggles defensively at the start of combat
+  - Lower single-target damage compared to other tanks
+  - Mitigation and healing suffers from rotational mistakes, particularly in the **Aldrachi Reaver** build
+
+### When to Play This Spec
+- Best suited for players who enjoy a mobile tanking style that emphasizes burst damage, crowd control, and high survivability.
+
+### Playstyle Description
+- Vengeance Demon Hunters focus on resource management, utilizing **Soul Fragments** for healing while managing high mobility to navigate fights. Their style involves building up resources rapidly and utilizing high-impact abilities efficiently.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+
+1. **Use Reaver's Glaive** when there is 4 seconds left on **Thrill of the Fight** or if it is not active.
+2. **Use Fracture** buffed by **Art of the Glaive** as the first ability in the combo.
+3. **Use Shear** buffed by **Art of the Glaive**.
+4. **Use Soul Cleave** buffed by **Art of the Glaive**.
+5. Use other abilities according to conditional priorities until capped on resources.
+
+### Exact Cooldown Usage and Timing
+- **Metamorphosis:** Increases health by 40% and armor by 200% for 15 seconds. Use proactively.
+- **Fiery Brand:** Defensive cooldown; apply when anticipating incoming damage.
+- **Demon Spikes:** Active mitigation ability; use frequently to reduce physical damage taken.
+- **Infernal Strike:** Off-global cooldown ability for additional damage, manage for movement.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. **Pre-cast Immolation Aura** 2 seconds before pull.
+2. **Pre-place Sigil of Flame** 1 second before pull.
+3. **Use Fiery Brand**
+4. **Use Felblade**
+5. **Use The Hunt**
+6. **Use Fel Devastation**
+7. **Use Spirit Burst**
+8. **Use Soul Sunder**
+9. **Use Sigil of Flame**
+10. **Use Metamorphosis** before Sigil of Flame lands.
+11. Proceed with normal Rotation according to the priority list.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. **Use Reaver's Glaive** when close to 4 seconds left on **Thrill of the Fight** or if it’s inactive.
+2. **Use Fracture** buffed by **Art of the Glaive**.
+3. **Use Shear** bufed by **Art of the Glaive**.
+4. **Use Soul Cleave** when ample resources are available.
+5. **Use The Hunt** on cooldown, applying to as many targets as possible.
+6. Continue using abilities according to AoE priority listing.
+
+### Opening Rotation/Opener Sequence
+- Follow the single target opener listed above, effectively transitioning into the main rotation as you generate resources.
+
+### Key Abilities
+- **Reaver's Glaive:** Buffs damage and resources.
+- **Spirit Bomb:** High burst AOE damage.
+- **Soul Cleave:** Primary resource spender for healing and damage.
+- **Metamorphosis:** Major cooldown enhancing damage and survival.
+- **Infernal Strike:** Mobility and extra damage, essential for repositioning.
+
+### Ability Interactions & Synergies
+- **Art of the Glaive** pairs with **Fracture** and **Soul Cleave**, increasing generated resources.
+- **The Hunt** is critical for usage right before heavy damage rotations to maximize its effects.
+- **Fiery Brand** can amplify damage during cooldown phases.
+
+### Rotation Conditionals (When to Use What)
+- Use **Metamorphosis** immediately when entering a fight against substantial damage.
+- **Fiery Brand** should be applied strategically based on predicted damage spikes.
+
+### Resource Management
+- **Soul Fragments**: Ensure they're generated primarily from **Fracture** and **Shear** to maximize healing and damage output through **Soul Bomb** and **Soul Cleave**.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Maintain mobility and position well to maximize the effectiveness of **Infernal Strike**.
+- Mismanaging your resources severely impacts both damage and survivability, practice makes perfect.
+
+### Common Mistakes
+- Using **Metamorphosis** reactively instead of proactively.
+- Not managing **Demon Spikes** effectively, leading to unnecessary damage taken.
+
+### Macros
+- Recommended to create macros for **Metamorphosis** to ensure it’s used optimally.
+- Create a macro for utility spells that prioritize target engagement.
+
+### Addons
+- Combat Assistant: This addon simplifies abilities based on preset priorities, useful for visual guidance during combat.
+- Rotational aids specific to Vengeance can enhance play efficiency.
+
+### Other Relevant Information
+- Utilize **Soul Fragments** wisely; only consume them when necessary to maintain healing and damage bonuses.
+- Tailor talent builds to your specific encounter needs, adapting your playstyle to the fight mechanics.
+
+---
+```

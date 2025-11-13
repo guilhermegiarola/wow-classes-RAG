@@ -1,0 +1,122 @@
+# Holy Priest Comprehensive Guide
+
+## 1. CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec:** Holy Priest
+- **Role:** Healer
+
+### Strengths and Weaknesses
+- **Strengths:**
+  - Excels at reactive raid healing, particularly in single-target triage.
+  - Unique short-cooldown healing style providing regular bursts of healing.
+  - Powerful raid cooldowns.
+  - Good single target and AoE damage potential, but only when not healing.
+  
+- **Weaknesses:**
+  - Many abilities to track.
+  - Low AoE burst healing throughput.
+  - Poor damage while healing compared to most other healers.
+  - No interrupt ability.
+
+### When to Play This Spec
+- Ideal for groups or encounters where reactive healing is paramount, and significant damage is expected.
+- Great choice for players who enjoy strategic healing mechanics and ability management.
+
+### Playstyle Description
+- Holy Priests are reactive healers focused on responding to incoming damage with specific healing spells and cooldowns. They utilize a combination of short-cooldown abilities to maximize healing output efficiently while managing resources like Mana.
+
+---
+
+## 2. ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. Lightwell near allies, usually between melee and ranged.
+2. Divine Word followed by Holy Word: Sanctify (if available) on a cluster of injured allies.
+3. Prayer of Mending when you have Premonition of Insight.
+4. Halo immediately before, or more than 60 seconds before Apotheosis.
+5. Apotheosis with 0 or 1 charge of each Holy Word.
+6. Holy Word: Sanctify when a cluster of your raid is injured.
+7. Holy Word: Serenity on an injured ally.
+8. Holy Word: Chastise to trigger Divine Image.
+9. Flash Heal with 1 or more stacks of Surge of Light.
+10. Power Word: Life for emergency triage on an ally near death.
+11. Divine Star when most of your raid is injured.
+12. Prayer of Mending on cooldown.
+13. Renew on a tank or debuff target.
+14. Holy Nova near 5 or more injured allies at 16+ stacks of Rhapsody.
+15. Flash Heal for healing one ally.
+16. Flash Heal when affected by Surge of Light.
+17. Prayer of Healing for general purpose healing.
+18. Prayer of Healing with 1 or more stacks of Lightweaver for healing multiple allies.
+19. Heal with 1 or more stacks of Lightweaver for healing one ally.
+20. Heal with 1 or more stacks of Lightweaver for general purpose healing.
+21. Flash Heal with 0 stacks of Lightweaver.
+22. Smite an enemy when no healing is required.
+
+### Exact Cooldown Usage and Timing
+- **Apotheosis:** Use as often as possible, aligns with optimized Holy Word use.
+- **Divine Hymn:** Utilize during heavy raid damage phases.
+- **Halo:** Coordinate with major cooldowns for maximum effect.
+
+### Single Target Rotation
+- Focus on using **Holy Word: Serenity**, filling with **Flash Heal** (with **Surge of Light** procs), and maintain **Renew** on targets who need it.
+
+### AoE/Cleave Rotation
+- Begin with **Lightwell** for general healing, follow with **Divine Word** and **Holy Word: Sanctify**, casting **Halo** when feasible. Use **Prayer of Mending** and maximize **Holy Nova** during AoE situations.
+
+### Opening Rotation/Opener Sequence
+1. Lightwell placement.
+2. Divine Word and Holy Word: Sanctify.
+3. Immediately apply Prayer of Mending where appropriate.
+
+### Key Abilities with Effects, Cooldowns, and Resource Costs
+| Ability                   | Effect                                                       | Cooldown                | Resource Cost         |
+|---------------------------|-------------------------------------------------------------|-------------------------|------------------------|
+| **Holy Word: Serenity**   | Strong single-target heal                                    | 30 sec                  | None                   |
+| **Holy Word: Sanctify**   | AoE heal                                                    | 30 sec                  | None                   |
+| **Divine Hymn**           | Channeled AoE healing                                       | 3 min                   | None                   |
+| **Apotheosis**            | Increases healing output, reduces Holy Word cooldowns       | 3 min                   | None                   |
+| **Flash Heal**            | Quick heal to target, generates Lightweaver stacks         | 6 sec cooldown          | Low Mana               |
+| **Prayer of Mending**     | Bounces between allies, providing healing                   | None                    | Moderate Mana          |
+| **Renew**                 | HoT effect on target                                        | 12 sec                  | Low Mana               |
+| **Lightwell**             | Placeable heal over time for allies within proximity        | 3 min                   | Moderate Mana          |
+
+### Ability Interactions and Synergies
+- **Surge of Light:** Procced by Flash Heal and Smite, allowing for reduced cooldown on Holy Words.
+- **Apotheosis** enhances cooldown reduction for Holy Words, facilitating more frequent cast cycles.
+- **Lightweaver** stacks are best spent on Prayer of Healing or Heal for enhanced efficiency.
+
+### Rotation Conditionals
+- Use **Flash Heal** after proccing **Surge of Light**.
+- When using **Apotheosis**, prioritize **Holy Word** casts to reduce their cooldowns quickly.
+
+### Resource Management (Runes, Runic Power, etc.)
+- Focus on maintaining Mana through proper cooldown usage, especially with **Shadowfiend** returning resources during high damage phases.
+
+---
+
+## 3. ADDITIONAL INFO
+
+### Tips and Tricks
+- Manage **Lightwell** positioning to maximize ally access during movement phases.
+- Keep track of stacking **Premonition** and try to align it with major cooldowns for maximum benefit.
+
+### Common Mistakes
+- Overhealing due to mismanagement of cooldowns; casting spells without considering the likely overheal can waste resources.
+- Failing to utilize **Prayer of Mending** at optimal times can reduce overall healing effectiveness.
+
+### Macros
+- Suggest using macro combinations for **Prayer of Mending** and major cooldowns for quick selection during high-pressure times.
+  
+### Addons
+- Utilize **WeakAuras** to track cooldowns, especially for **Prayer of Mending** and **Surge of Light**.
+- **Grid** or **VuhDo** can help in monitoring group health effectively.
+
+### Any Other Relevant Information
+- For Mythic+ dungeons, adopting aggressive playstyle early with cooldowns allows for better group survival through heavy hits.
+- **Guardian Spirit** is invaluable; using it correctly can save lives in critical moments, particularly for tanks.
+
+--- 
+
+This guide consolidates crucial information for playing a Holy Priest effectively in the current meta.

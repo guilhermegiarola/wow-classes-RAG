@@ -1,0 +1,121 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec Name**: Restoration Druid
+- **Role**: Healer
+
+### Strengths and Weaknesses
+- **Strengths**:
+  - Good burst healing on short cooldowns in raids.
+  - Good survivability in both raids and Mythic+.
+  - Good healing on the move.
+  - Good active damage output both in raids and Mythic+.
+  - Strong healing capabilities in Mythic+ contexts.
+  
+- **Weaknesses**:
+  - No raid/group wide damage reduction.
+  - Requires dealing damage to avoid running out of mana (OOM) in raids.
+  - Low healing output outside of cooldown usage in raids.
+  - Mediocre passive damage output.
+
+### When to Play This Spec
+- Optimal for healing groups with high mobility or intense damage events, particularly in raids and Mythic+ dungeons.
+
+### Playstyle Description
+- Restoration Druids utilize a flexible spell kit to adapt their healing based on the damage being dealt. Maintaining HoTs (Heal over Time spells) while preparing for major damage events with bursts of healing during cooldowns represents a significant aspect of their playstyle.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. Keep **Efflorescence** under a group of players (typically melee).
+2. Maintain **Lifebloom** on a tank or a player taking heavy damage.
+3. Use **Innervate** during low to moderate damage.
+4. Use **Clearcasting** procs to avoid overcapping mana.
+5. Cast **Swiftmend**, followed by **Wild Growth**.
+6. Keep **Rejuvenation** on active tanks and players with debuffs.
+7. Start casting **Rejuvenations** 15-20 seconds before major damage.
+8. Use **Wrath** during downtime to regenerate mana.
+
+**Note**: Grove Guardians are best used tactically during high damage phases.
+
+### Exact Cooldown Usage and Timing
+- **Innervate**: Use as often as possible, ideally before using **Flourish**.
+- **Ironbark**: Apply liberally on tanks or players at risk during critical mechanics.
+- **Nature's Swiftness**: Use with **Regrowth** during emergencies.
+- **Tranquility**: Activate during high damage moments, ideally after using **Wild Growth**.
+- **Flourish**: Aim to use close to on cooldown to extend existing HoTs.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. **Lifebloom** on the target.
+2. Use **Swiftmend** when required.
+3. Ensure **Rejuvenation** is on the target as damage occurs.
+4. Use **Regrowth** as a follow-up if the target is injured.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. Cast **Efflorescence** strategically under groups.
+2. Maintain **Lifebloom** on a chosen player (tank).
+3. Use **Wild Growth** effectively to hit multiple players.
+4. Follow with **Convoke the Spirits** and **Flourish** during heavy damage.
+5. Fill gaps with **Regrowth**.
+
+### Opening Rotation/Opener Sequence
+1. Start with **Rejuvenations** on your group before a damage event.
+2. Place **Efflorescence**.
+3. Manage **Lifebloom** throughout the process.
+4. Use **Swiftmend** followed by **Wild Growth**.
+
+### Key Abilities with Effects, Cooldowns, and Resource Costs
+| Ability                   | Effect                                                                       | Cooldown  | Resource Cost |
+|---------------------------|------------------------------------------------------------------------------|-----------|---------------|
+| **Efflorescence**         | AoE healing over time in the area.                                          | 30 secs   | 0 mana        |
+| **Lifebloom**             | Heals the target over time and explodes for a burst heal when it expires.  | 10 secs   | 0 mana        |
+| **Innervate**             | Grants mana-free casting to the target for 8 seconds.                       | 3 mins    | 0 mana        |
+| **Swiftmend**             | Instantly heals a target and consumes a HoT to enhance the effect.          | 15 secs   | 0 mana        |
+| **Wild Growth**           | AoE heal that affects multiple allies in the area.                          | 8 secs    | 0 mana        |
+| **Flourish**              | Extends the duration of all your HoTs on allies.                            | 2 mins    | 0 mana        |
+| **Regrowth**              | Heals a target and leaves a HoT.                                           | 2 secs    | 20% mana      |
+| **Tranquility**           | Channeled heal for all players in range, leaving a HoT afterwards.          | 3 mins    | 0 mana        |
+| **Convoke the Spirits**   | Casts multiple spells on nearby allies, including healing spells.           | 3 mins    | 0 mana        |
+
+### Ability Interactions and Synergies
+- **Efflorescence** should be refreshed before major damage events.
+- Pair **Swiftmend** with **Wild Growth** for increased efficiency.
+- Use **Flourish** during high damage situations for maximizing healing output.
+- Combining **Convoke the Spirits** with HoTs can lead to significant healing bursts.
+
+### Rotation Conditionals (When to Use What)
+- Use **Wild Growth** when groups receive consistent AoE damage.
+- **Regrowth** should be prioritized when targets are critically low on health.
+- Integrate **Wrath** during low damage phases to maintain mana.
+
+### Resource Management
+- **Mana Management**: Balancing spells to prevent going OOM while maintaining pressure on healing.
+- Use **Master Shapeshifter** to regenerate mana efficiently while dealing damage.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Monitor your HoTs carefully; using more HoTs improves overall mastery efficiency.
+- Optimize damage between healing bursts to provide additional DPS where safer.
+
+### Common Mistakes
+- Over-reliance on **Rejuvenation** instead of proactive damage.
+- Not managing mana efficiently leading to early OOM situations.
+- Poor timing of cooling down major healing spells.
+
+### Macros
+- Consider creating a macro for **Nature's Swiftness** paired with **Regrowth** to utilize the swift heal.
+
+### Addons
+- Use WeakAuras for tracking HoTs and cooldowns effectively.
+- Datamining tools to optimize your healing rotations per fight.
+
+### Any Other Relevant Information
+- Always adapt your playstyle based on group dynamics and specific mechanics of encounters.
+- Familiarity with bosses and encounters aids in improving healing output.
+```

@@ -1,0 +1,121 @@
+# Havoc Demon Hunter Guide
+
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec**: Havoc Demon Hunter
+- **Role**: DPS (Damage Per Second)
+
+### Strengths and Weaknesses
+**Strengths**:
+- Powerful burst cooldowns adaptable to various encounters.
+- Exceptional cleave potential due to ability enhancements.
+- High mobility allows for instant repositioning.
+- Strong self-sustain and defensive abilities.
+- Access to crowd control options and group utility.
+- Provides **Chaos Brand** debuff to assist the group.
+
+**Weaknesses**:
+- Damage is heavily frontloaded, risking threat in AoE.
+- AoE abilities are reliant on cooldowns, necessitating careful planning.
+- Movement-based talents can create dangerous situations.
+- Optimal builds require juggling various buff windows.
+
+### When to Play This Spec
+- Best utilized in situations where high mobility and burst damage are required.
+- Effective for both raids and Mythic+ dungeons.
+
+### Playstyle Description
+Havoc Demon Hunters operate on a **build-and-spend Fury** resource loop, with a focus on executing powerful burst AoEs and targeted damage. The gameplay is fast-paced, with an emphasis on clever management of cooldowns and high mobility through abilities like **Fel Rush** and **Vengeful Retreat**.
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. Cast **Death Sweep** during **Essence Break** debuff.
+2. Cast **Annihilation** during **Essence Break** debuff.
+3. Cast **Death Sweep** with **Demonsurge** active (ideally before **Metamorphosis** expires).
+4. Cast **Vengeful Retreat** to trigger **Initiative**, **Inertia**, and **Exergy**.
+5. Cast **Felblade** with **Inertia** ready.
+6. Cast **Immolation Aura/Consuming Fire** if not currently active.
+7. Keep **Immolation Aura** refreshed and manage charges.
+8. Cast **Essence Break** with **Metamorphosis** active.
+9. Cast **Annihilation/Chaos Strike** with **Immolation Aura** active.
+10. Continue with **The Hunt**, **Death Sweep**, **Blade Dance**, etc., as outlined in the single-target or AoE rotation.
+
+### Exact Cooldown Usage and Timing
+- **Metamorphosis**: 3-minute cooldown (reduced to 2 minutes with **Rush of Chaos**)
+- **Eye Beam**: 40-second cooldown.
+- **Essence Break**: Critical burst window ability.
+- **The Hunt**: 1.5-minute cooldown; used to generate **Reaver's Glaive**.
+- **Immolation Aura**: Keep active and manage cooldowns to avoid wasting charges.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. Cast **Immolation Aura** to start.
+2. Begin with **Death Sweep** during **Essence Break**.
+3. Use **Felblade** to generate Fury, refreshing **Inertia**.
+4. Maintain **Immolation Aura** uptime.
+5. Activate **Metamorphosis** and immediately cast **Chaos Strike**.
+6. Alternate between **Death Sweep** and **Annihilation** based on **Demonsurge**.
+7. Use **Eye Beam** and **The Hunt** strategically.
+8. Finish with fillers like **Throw Glaive** or **Fel Rush**.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. Cast **Immolation Aura** to initiate.
+2. Start with **Death Sweep** during **Essence Break**.
+3. Use **Fel Rush/Felblade** with **Inertia** ready.
+4. Activate **Metamorphosis** and **Eye Beam** for burst.
+5. Follow up with **Blade Dance** and strategic **Sigils**.
+6. Continue to recast abilities while ensuring **Immolation Aura** is active.
+7. Maintain **Reaver's Glaive** proc and related buffs.
+
+### Opening Rotation/Opener Sequence
+1. Cast **Immolation Aura** 2 seconds before the pull.
+2. Cast **Sigil of Flame** 1 second before the pull.
+3. Cast **The Hunt** to initiate.
+4. Use **Felblade** to generate Fury.
+5. Activate **Eye Beam** as part of your burst sequence.
+6. Sequentially cast abilities ensuring **Essence Break** is aligned with **Metamorphosis**.
+
+### Key Abilities with Effects, Cooldowns, and Resource Costs
+- **Blade Dance**: Major damage ability with a cooldown; benefits from buffs like **Fury of the Aldrachi**.
+- **Chaos Strike**: Base single-target attack; generates Fury.
+- **Immolation Aura**: Continuous damage over time, requires careful management of charges.
+- **Eye Beam**: Powerful AoE channel that resets on **Metamorphosis**.
+- **Metamorphosis**: Major transformation ability granting higher damage output for its duration.
+
+### Ability Interactions and Synergies
+- **Essence Break** should be aligned with **Metamorphosis** to maximize burst damage during empowered casts.
+- Maintain **Demonsurge** buffs by managing casts of abilities like **Chaos Strike** and **Death Sweep**.
+- **The Hunt** generates necessary resources and buffs at crucial moments.
+
+### Rotation Conditionals (When to Use What)
+- Use **Vengeful Retreat** when needing to trigger **Initiative** and reposition quickly.
+- Prioritize **Annihilation** casts when **Immolation Aura** is active for bonus damage.
+- Use **Felblade** to absorb **Soul Fragments** and trigger **Reaver's Glaive**.
+
+### Resource Management
+- **Fury** is the primary resource: aim to maintain between 60-80 Fury.
+- Manage **Demon Blades** to ensure efficient generation and consumption of Fury.
+- Use **Felblade** under 60 Fury to keep up resource generation.
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Keep an eye on **Immolation Aura** charges to prevent wasting powerful abilities.
+- Align **Death Sweep** with **Essence Break** for maximum burst.
+- Manage cooldowns carefully to exploit the fast-paced playstyle effectively.
+
+### Common Mistakes
+- Allowing **Immolation Aura** to sit at 2 charges can lead to significant DPS loss.
+- Overcapping Fury can waste potential damage; always spend efficiently.
+- Forgetting to activate abilities like **Metamorphosis** when available can lead to missed burst windows.
+
+### Macros
+- Consider creating macros for quick access to **Essence Break** followed by **Death Sweep** and **Annihilation** to streamline rotation.
+
+### Addons
+- Use addons like **WeakAuras** to track cooldowns, buffs, and charges effectively.
+
+### Any Other Relevant Information
+- Regularly sim your character to refine builds and understand the implications of gear choices.
+- Familiarize yourself with rotations through practice and by using training dummies to hone your timing and sequencing.

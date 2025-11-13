@@ -1,0 +1,135 @@
+```markdown
+# Discipline Priest Guide — The War Within (11.2.5)
+
+## 1. CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec Name**: Discipline Priest
+- **Role**: Healer (with DPS capabilities)
+
+### Strengths and Weaknesses
+**Strengths**:
+- High burst healing on a short cooldown.
+- Strong cooldowns that increase the effective health of your group (through absorbs or damage reduction).
+- Provides significant damage with low opportunity cost.
+- Strong tools for both group wide and single target healing in a Mythic Plus environment.
+
+**Weaknesses**:
+- Reactive, raid-wide, emergency heals are limited compared to other healing specs.
+- Mistakes made by the Discipline Priest are far more punishing than on other healers.
+- High barrier to entry for raid healing.
+- Poor personal mobility options.
+- One of only two specializations without access to an interrupt.
+
+### When to Play This Spec
+- Effective in both raid and Mythic+ environments.
+- Ideal for players who enjoy a proactive healing playstyle, balancing damage dealing with healing.
+
+### Playstyle Description
+Discipline Priests have a unique playstyle that revolves around healing through dealing damage due to the Atonement passive ability. This means they can contribute to raid damage output while simultaneously healing. Mastering this balance takes practice but can lead to rewarding gameplay.
+
+---
+
+## 2. ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. **Power Word: Radiance** - Multi-target Atonement application.
+2. **Power Word: Shield** - Single target Atonement application (best choice when available).
+3. Apply **Renew** to up to 6 targets.
+4. **Flash Heal** - Use when needed, especially in synergy with talents.
+5. **Evangelism** - Extension of Atonement duration.
+6. Cast damage abilities (**Mind Blast**, **Penance**, **Void Blast**, etc.) to heal through Atonement.
+
+### Exact Cooldown Usage and Timing
+- **Power Word: Radiance**: Primary cooldown for group Atonement, effectively used before expected damage spikes.
+- **Evangelism**: Used in conjunction with **Penance** and **Shadowfiend** for high healing output.
+
+### Single Target Rotation
+1. Cast **Power Word: Shield**.
+2. Cast **Flash Heal**.
+3. Follow with a direct damage spell to generate Atonement healing.
+4. Use **Penance** on the target for damage/healing alternately.
+
+### AoE/Cleave Rotation
+1. Start with **Power Word: Radiance** to apply Atonement to multiple targets.
+2. Use **Shadow Word: Pain** and **Smite** for damage, triggering Atonement healing.
+3. Continue to cast **Penance** and **Mind Blast** based on cooldowns and Atonement management.
+
+### Opening Rotation/Opener Sequence
+1. **Shadow Word: Pain**
+2. **Power Word: Shield**
+3. **Power Word: Radiance**
+4. **Evangelism**
+5. Follow with **Mind Blast**, **Penance**, and other damage spells.
+
+### Key Abilities with Effects, Cooldowns, and Resource Costs
+- **Power Word: Radiance**
+  - **Effect**: Applies Atonement to 5 targets.
+  - **Cooldown**: 30 seconds.
+  - **Resource Cost**: Medium Mana.
+
+- **Power Word: Shield**
+  - **Effect**: Single target Atonement application; shields the target.
+  - **Cooldown**: Low.
+  - **Resource Cost**: Medium Mana.
+
+- **Flash Heal**
+  - **Effect**: Heals target and applies Atonement.
+  - **Cooldown**: None.
+  - **Resource Cost**: High Mana.
+
+- **Penance**
+  - **Effect**: Deals damage and heals based on Atonement.
+  - **Cooldown**: 1.5 seconds.
+  - **Resource Cost**: Low Mana.
+
+- **Evangelism**
+  - **Effect**: Extends Atonement duration.
+  - **Cooldown**: 1 minute.
+  - **Resource Cost**: High Mana.
+
+### Ability Interactions and Synergies
+- **Atonement** is applied by various healing abilities enabling healing while dealing damage.
+- Utilizing **Penance** on targets under Atonement provides significant healing back to the group.
+- Combining **Power Word: Radiance** with **Evangelism** maximizes healing during high damage scenarios.
+
+### Rotation Conditionals
+- Use **Power Word: Radiance** right before large group damage events.
+- Apply **Flash Heal** when a quick, substantial single-target heal is necessary.
+- Use **Penance** to trigger Atonement healing during damage phases.
+
+### Resource Management
+- Manage **Mana** carefully; prioritize spells with the highest value for healing over time.
+- Optimize use of **Runic Power** to sustain high Atonement application amidst regular damage output.
+
+---
+
+## 3. ADDITIONAL INFO
+
+### Tips and Tricks
+- Plan your **Radiance** usage based on encounter damage patterns to maximize healing.
+- Use **Evangelism** wisely to bolster **Penance** and extend its effects.
+
+### Common Mistakes
+- Mismanagement of Atonement—failure to maintain it can lead to significant healing loss.
+- Overreliance on direct healing spells instead of damage-based healing.
+
+### Macros
+- **Ability Queue Macro**: Prevents queuing mistakes to ensure the desired next cast is used.
+- Example:
+```lua
+/cast Premonition
+/cqs [known:Premonition of Insight] [known:Premonition of Clairvoyance]
+```
+
+### Addons
+- Recommended healer addons like **WeakAuras** for tracking Atonement uptime.
+- **Grid2** or **VuhDo** for party frame management.
+
+### Other Relevant Information
+- Understand the importance of **Cooldowns** and how they fit into the overall raid strategy.
+- Stay aware of damage patterns and adapt your rotation accordingly for high performance.
+
+--- 
+```
+This markdown document includes all detailed information extracted from the given sources while adhering to the specified formatting rules. Each section is clearly defined, with all relevant details about the Discipline Priest class in World of Warcraft.

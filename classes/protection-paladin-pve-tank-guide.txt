@@ -1,0 +1,124 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec:** Protection Paladin
+- **Role:** Tank
+
+### Strengths and Weaknesses
+**Strengths:**
+- Strong active mitigation and cooldown kit against predictable incoming damage.
+- Unique group utility and damage reductions with Blessings and Auras.
+- Good burst capabilities with cooldowns for damage and threat generation.
+- Great emergency cooldowns like **Lay on Hands** and **Divine Shield**.
+- Strong self and group healing with **Word of Glory** and **Lay on Hands**.
+- Can remove poisons and diseases with **Cleanse Toxins**.
+
+**Weaknesses:**
+- Takes a few GCDs to get **Shield of the Righteous** started, making the start of combat dangerous.
+- Moving out of **Consecration** means losing out on damage reduction.
+- Limited mobility outside of **Divine Steed**.
+- Mistakes in your rotation can be very punishing.
+
+### When to Play This Spec
+- Best suited for players looking for a robust tanking experience in raids and Mythic+ dungeons.
+
+### Playstyle Description
+- The Protection Paladin relies on generating Holy Power through attacks to mitigate damage and bolster survivability. Players should focus on active mitigation abilities, timing cooldowns effectively, and maintaining consistent damage output while ensuring maximum threat generation.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. **Pre-Pull:** 
+   - Pre-place **Consecration** where the fight will occur.
+   - Pull with **Hand of Reckoning**.
+2. **Single Target/Opener Sequence:**
+   - **Avenger's Shield**
+   - **Avenging Wrath**
+   - **Hammer of Wrath**
+   - **Moment of Glory**
+   - **Avenger's Shield**
+   - **Judgment**
+   - **Eye of Tyr**
+   - **Shield of the Righteous**
+   - Repeat according to the conditions outlined below.
+
+### Exact Cooldown Usage and Timing
+- **Shield of the Righteous:** 3 Holy Power for damage mitigation, aim to have it active under heavy incoming damage.
+- **Avenging Wrath:** Increases damage and healing by 20%, reduces cooldowns for **Hammer of Wrath**.
+- **Lay on Hands:** Emergency heal with a 10-minute cooldown, best used when health is critically low.
+- **Divine Shield:** 8 seconds of immunity; can be combined with **Hand of Reckoning** to manage mechanics.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. **Avenging Wrath**
+2. **Sacred Weapon** (if **Avenging Wrath** is inactive)
+3. **Moment of Glory**
+4. **Eye of Tyr** (0-2 Holy Power)
+5. **Hammer of Light** (if **Blessing of Dawn** stacks)
+6. **Bastion of Light**
+7. **Consecration** (if not standing in it)
+8. **Shield of the Righteous** (3-5 Holy Power)
+9. **Divine Toll** (if below 5 Holy Power)
+10. Continue using **Hammer of Wrath**, **Judgment**, and **Hammer of the Righteous** when off cooldown, and manage Holy Power efficiently.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. Follow the same sequence as the single target with adjustments:
+   - Use **Avenger's Shield** to gain bulk threat and Bulwark of Righteous Fury stacks.
+   - Use **Judgment** and **Consecration** as regularly as possible.
+   - Cast **Divine Toll** when you reach 0 Holy Power.
+   - Utilize **Hammer of the Righteous/Blessed Hammer** for cleave damage.
+
+### Key Abilities with Their Effects, Cooldowns, and Resource Costs
+| Ability                | Effect                               | Cooldown          | Resource Cost      |
+|-----------------------|--------------------------------------|--------------------|--------------------|
+| Shield of the Righteous | Increases armor, mitigates damage  | Off GCD           | 3 Holy Power       |
+| Word of Glory         | Heals the paladin based on missing health  | Off GCD           | 3 Holy Power       |
+| Avenger's Shield      | Deals damage and stuns enemies      | 12 sec             | None               |
+| Avenging Wrath        | Boosts damage and healing            | 2 min              | None               |
+| Holy Bulwark          | Provides additional shields          | 30 sec             | None               |
+| Consecration          | AOE damage reduction                 | 20 sec             | None               |
+
+### Ability Interactions and Synergies
+- **Word of Glory:** Can be made free every five uses of **Shield of the Righteous**.
+- **Moment of Glory**: Enhances **Shield of the Righteous** and provides added healing/damage mitigation.
+
+### Rotation Conditionals
+- Use **Word of Glory** when at low health (<50%).
+- Prioritize **Shield of the Righteous** at 3 Holy Power to avoid capping.
+- Cast **Consecration** before taking heavy hits to maximize armor benefits.
+
+### Resource Management
+- Manage **Holy Power** by using abilities that generate it effectively while making sure to not exceed the cap of 5.
+- Utilize **Divine Toll** when at 0 Holy Power to restore yourself.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Learning the mechanics of each boss fight can help manage your cooldowns better.
+- Always check positioning for **Consecration** placement; losing uptime leads to increased damage intake.
+
+### Common Mistakes
+- Allowing **Holy Power** to cap while generating more can lead to a loss in potential mitigation from **Shield of the Righteous**.
+- Forgetting to reapply **Consecration** can significantly reduce your damage reduction.
+
+### Macros
+- **Divine Shield Cancellation Macro:**
+  ```plaintext
+  #showtooltip
+  /cast Divine Shield
+  /cancelaura Divine Shield
+  ```
+
+### Addons
+- Recommended addons include WeakAuras for tracking buffs/debuffs and threat plates for managing threat levels.
+
+### Any Other Relevant Information
+- The **Combat Assistant** mode can automate rotation but has significant drawbacks including DPS loss and inadequate defensive play; thus it's recommended to use the traditional method of control.
+
+---
+
+```

@@ -1,0 +1,6 @@
+fastapi
+beautifulsoup4 
+requests
+pymilvus
+markdown-text-clean
+python-dotenv

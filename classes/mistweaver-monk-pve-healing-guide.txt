@@ -1,0 +1,115 @@
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class Name:** Monk
+- **Specialization:** Mistweaver
+- **Role:** Healer
+
+### Strengths and Weaknesses
+- **Strengths:**
+  - Extremely powerful single-target healing.
+  - Ability to deal damage while healing.
+  - High mobility with abilities like Chi Torpedo/Roll, Tiger's Lust, and Transcendence.
+  - Robust personal damage reduction options.
+  - Strong crowd control with Paralysis, Leg Sweep, and Ring of Peace.
+  
+- **Weaknesses:**
+  - Mana management can be difficult for newer players.
+  - Lack of a damage reduction cooldown for the raid.
+
+### When to Play This Spec
+- Ideal for raids where both single-target and AoE healing are required.
+- High movement encounters or fights with heavy damage phases benefit from the mobility and cooldowns of a Mistweaver Monk.
+
+### Playstyle Description
+- Mistweaver Monks can specialize in either tank healing or mobile raid healing based on chosen talents. They play dynamically, needing to understand their spacial positioning and timing of spells to maximize healing output while maintaining damage.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. **Renewing Mist** - Maintain on cooldown unless saving charges.
+2. **Soothing Mist** - Channel when targeting a single ally receiving consistent damage.
+3. **Vivify** - Use as your primary single-target heal, especially when there are targets affected by Renewing Mist.
+4. **Enveloping Mist** - Preemptively cast for incoming damage.
+5. **Rising Sun Kick** - Cast on cooldown to extend HoTs and reduce cooldowns on other abilities.
+6. **Invoke Yu'lon, the Jade Serpent** - Use early and often for healing during heavy damage phases.
+7. **Life Cocoon** - Activate when a target is about to take significant damage.
+
+### Exact Cooldown Usage and Timing
+- **Renewing Mist:** Keep active continually.
+- **Thunder Focus Tea:** Use as often as possible; empower Renewing Mist or Enveloping Mist.
+- **Life Cocoon:** Used at critical damage moments.
+- **Revival:** Use during low health phases in the raid.
+- **Invoke Yu'lon:** Used frequently; helps mitigate damage.
+- **Invoke Chi-Ji:** Use liberally; effective during multi-target damage.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. Apply **Renewing Mist** to the target.
+2. Use **Soothing Mist** channel to prep for healing.
+3. Cast **Enveloping Mist** for immediate protection from incoming damage.
+4. **Vivify** to restore health.
+5. Repeat as necessary.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. Maintain **Renewing Mist** on all group members as much as possible.
+2. Use **Vivify** to heal multiple targets efficiently.
+3. **Invoke Yu'lon** for AoE healing - coordinate with team for timing.
+4. **Rising Sun Kick** on cooldown primarily to maintain HoT coverage.
+5. Use **Enveloping Mist** strategically on injured allies.
+
+### Opening Rotation/Opener Sequence
+1. Start with **Renewing Mist** on multiple allies.
+2. Follow with **Soothing Mist** on the primary target while applying Vivify.
+3. Use **Thunder Focus Tea** when ready on either **Renewing Mist** or **Enveloping Mist**.
+4. Use **Invoke Yu'lon, the Jade Serpent** once damage spikes.
+
+### Key Abilities
+| Ability Name                | Effect                                                       | Cooldown          | Resource Cost        |
+|-----------------------------|-------------------------------------------------------------|-------------------|----------------------|
+| **Renewing Mist**           | HoT on a target                                             | 15 seconds        | None                 |
+| **Soothing Mist**           | Efficient channel heal                                      | 3 seconds         | None                 |
+| **Vivify**                  | Direct heal with extra healing if targets have Renewing Mist| 3 seconds         | None                 |
+| **Enveloping Mist**         | Absorbs damage, increases overall healing                   | 10 seconds        | 2% max mana          |
+| **Rising Sun Kick**         | Main damage ability with healing component                  | 20 seconds        | None                 |
+| **Thunder Focus Tea**       | Empowers next heal spell                                    | 30 seconds        | None                 |
+| **Life Cocoon**             | Damage absorption shield                                    | 3 minutes         | None                 |
+| **Revival**                 | Raid-wide healing with dispel                               | 3 minutes         | None                 |
+| **Invoke Yu'lon**           | Summons healing spirit                                      | 2 minutes         | None                 |
+| **Invoke Chi-Ji**           | Provides mana-efficient healing boost                       | 2 minutes         | None                 |
+
+### Ability Interactions and Synergies
+- **Vivify** benefits strongly from having **Renewing Mist** active.
+- **Rising Sun Kick** not only deals damage but extends the duration of **Renewing Mist** through talents.
+- **Thunder Focus Tea** enhances the effectiveness of key abilities, particularly when paired strategically with **Life Cocoon** or **Enveloping Mist**.
+
+### Rotation Conditionals (When to Use What)
+- If many party members are taking damage, prioritize **Vivify**.
+- Use **Soothing Mist** when a single target requires focused healing.
+- Apply **Enveloping Mist** proactively if heavy damage is expected on a specific target.
+  
+### Resource Management 
+- **Mana Management:** Use **Mana Tea** frequently to maintain mana levels, ideally before heavy healing phases.
+- Track **Renewing Mist** and its charges — always have charges rolling but don’t overcap.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Always be mindful of your position to optimize AoE and avoid unnecessary movement.
+- Use your mobility spells wisely to maintain uptime on healing while positioning yourself for efficiency.
+
+### Common Mistakes
+- Neglecting **Renewing Mist** uptime leads to lower overall healing.
+- Overusing **Soothing Mist** without considering target swaps can waste cast time in dynamic fights.
+
+### Macros
+- Consider using macros for **Thunder Focus Tea** to simplify the usage on the appropriate healing spells.
+
+### Addons
+- Use raid frames and healing addons to monitor HoT coverage and mana usage effectively.
+
+### Other Relevant Information 
+- To maximize your role as a Mistweaver Monk, understand the mechanics of encounters to effectively time your cooldowns and spells. Mastering this dynamic playstyle can significantly impact the success of your raid group.

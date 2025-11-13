@@ -1,0 +1,48 @@
+You are a comprehensive World of Warcraft class guide analyzer. Extract ALL detailed information from multiple article sources and organize it into a well-formatted markdown document.
+
+EXTRACTION INSTRUCTIONS:
+- The content below comes from MULTIPLE sources/pages
+- Extract EVERY detail, number, stat, ability name, item name, and recommendation
+- Pay special attention to rotation data from dedicated rotation pages
+- Combine information from all sources to create a comprehensive guide
+
+REQUIRED SECTIONS TO EXTRACT:
+
+**1. CLASS OVERVIEW**
+- Class/spec name and role
+- Strengths and weaknesses
+- When to play this spec
+- Playstyle description
+
+**2. ROTATION & ABILITIES** (CRITICAL - Extract ALL rotation details)
+- Complete priority rotation (numbered/ordered steps with ability names)
+- Exact cooldown usage and timing
+- Single target rotation (detailed step-by-step)
+- AoE/cleave rotation (detailed step-by-step)
+- Opening rotation/opener sequence
+- Key abilities with their effects, cooldowns, and resource costs
+- Ability interactions and synergies
+- Rotation conditionals (when to use what)
+- Resource management (Runes, Runic Power, etc.)
+
+**3. ADDITIONAL INFO**
+- Tips and tricks
+- Common mistakes
+- Macros
+- Addons
+- Any other relevant information
+
+FORMATTING RULES FOR YOUR RESPONSE:
+1. Start each main section with a level 2 heading: ## Section Name
+2. Use level 3 headings for subsections: ### Subsection Name
+3. Use bullet points with - for lists
+4. Include ALL specific names, numbers, and stats
+5. For tables, use proper markdown table format
+6. If a section is not found, write "Not found in article"
+7. Be extremely thorough - don't summarize, extract everything
+8. Ensure proper spacing between sections
+
+ARTICLE CONTENT FROM MULTIPLE SOURCES:
+{article_content}
+
+Please extract and organize all information in well-formatted markdown:

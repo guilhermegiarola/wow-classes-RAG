@@ -1,0 +1,120 @@
+## Frost Death Knight Guide
+
+### 1. CLASS OVERVIEW
+
+**Class/spec name and role:**  
+Frost Death Knight - Melee DPS
+
+**Strengths and weaknesses:**
+- **Strengths:**  
+  - Good single target with a 45 seconds burst profile
+  - Naturally strong cleave
+  - Great add control with Death Grip
+  - Knockback prevention with Death's Advance
+  - Immunity to many magical debuffs via Anti-Magic Shell
+  - Anti-Magic Zone as a magic damage raid cooldown
+  - One of the tankiest specs
+- **Weaknesses:**  
+  - Limited spread add cleave
+  - Limited mobility
+  - Susceptible to forced downtime during cooldowns
+  - Doesn't provide a very powerful raid buff
+  - Limited Mythic+ utility
+
+**When to play this spec:**  
+Play as a Frost Death Knight when looking to deal significant direct damage, especially in raid encounters and Mythic+ dungeons where you can take advantage of cleave.
+
+**Playstyle description:**  
+Frost Death Knight gameplay revolves around managing resources effectively, maximizing burst damage within cooldown windows, and ensuring proper positioning to optimize AoE damage.
+
+---
+
+### 2. ROTATION & ABILITIES
+
+#### Complete priority rotation
+
+1. **Single Target:**  
+   - Use Obliterate if you have a proc of Killing Machine.
+   - Use Howling Blast if you have a proc of Rime.
+   - Use Frost Strike when you do not have other abilities available.
+   - Use Obliterate as a runic power dump when applicable.
+
+2. **Cleave/Mythic+:**  
+   - Use Frostscythe if you have a proc of Killing Machine.
+   - Use Obliterate if you have a proc of Killing Machine.
+   - Use Howling Blast if you have a proc of Rime.
+   - Use Remorseless Winter on cooldown.
+   - Use Frost Strike if you have a proc of Frostbane.
+   - Use Glacial Advance.
+   - Use Frostscythe.
+   - Use Obliterate.
+
+#### Exact cooldown usage and timing
+
+- **Cooldowns:**  
+  - Reaper's Mark: 45-second cooldown; align with Pillar of Frost.
+  - Pillar of Frost: 45-second cooldown; grants 30% Strength for 12 seconds.
+  - Remorseless Winter: Use on cooldown, ideally with Frozen Dominion or to maintain Everfrost.
+  - Empower Rune Weapon: Use when close to 2 stacks to prevent overcapping.
+  - Breath of Sindragosa: 60 Runic Power, lasts 8 seconds; can be extended with procs.
+  - Frostwyrm's Fury: Used ideally during Pillar of Frost for maximum beneficent damage.
+
+#### Opening rotation/opener sequence
+
+1. **Single Target with Breath/Empower:**  
+   1. Remorseless Winter  
+   2. Cursed Stone Idol  
+   3. Reaper's Mark + Empower Rune Weapon  
+   4. Pillar of Frost + Obliterate + Breath of Sindragosa + Trinket + Potion + Raise Dead  
+   5. Repeat Obliterate, Frostscythe, with emphasis on maximizing Killing Machine usage.
+
+#### Key abilities with their effects, cooldowns, and resource costs
+
+| Ability                      | Effect                                                                                 | Cooldown | Resource Cost |
+|------------------------------|----------------------------------------------------------------------------------------|----------|---------------|
+| Obliterate                   | High damage, consumes Killing Machine procs                                           | No       | 1 Rune        |
+| Frost Strike                 | Consumes Runic Power, deals Frost damage                                              | No       | 35 Runic Power |
+| Howling Blast                | Deals AoE damage, consumes Rime proc                                                 | No       | 1 Rune        |
+| Remorseless Winter           | AoE damage and slow for 8 seconds                                                    | No       | No            |
+| Empower Rune Weapon          | Off-GCD ability to generate Runic Power and Killing Machine procs                    | No       | No            |
+| Breath of Sindragosa         | Massive AoE damage in front of you, duration extended by procs                       | N/A      | 60 Runic Power |
+| Frostwyrm's Fury             | Major damage cooldown that benefits from the number of enemies                       | N/A      | No            |
+| Reaper's Mark                | Generates Killing Machines; aligns with Obliteration window                           | 45 sec   | No            |
+
+#### Ability interactions and synergies
+
+- **Empower Rune Weapon** synergizes with **Obliteration** for maximum resource management by generating multiple procs while keeping rune costs minimal.
+- **Breath of Sindragosa** integrated with **Pillar of Frost** and **Killing Machines** results in substantial burst damage.
+
+#### Rotation conditionals
+
+- **Before using Obliterate:** Ensure you have a proc of Killing Machine active.
+- **If low on Runes, first consume:** Rime procs through Howling Blast then focus on Killing Machine.
+- **In AoE situations:** Use Frostscythe as your primary rune spender.
+
+#### Resource management
+
+- **Runes:** You have a total of 6 Runes. They recharge over time; aim to keep 3 Runes on cooldown.
+- **Runic Power:** Maximum of 100. Generated primarily through consuming Runes and certain abilities.
+
+---
+
+### 3. ADDITIONAL INFO
+
+#### Tips and tricks
+- **Positioning matters:** Stand at the edge of enemy packs to maximize damage from frontal AoE abilities.
+- **Control your cooldowns:** Utilizing macros can help maximize GCD usage with abilities such as Pillar of Frost.
+
+#### Common mistakes
+- Neglecting to consume Killing Machine procs promptly.
+- Overcapping Runic Power or Runes due to improper timing.
+
+#### Macros
+- Recommended to use combined macros for Pillar of Frost along with other abilities to ensure optimal casting while minimizing downtime.
+
+#### Addons
+- Combat Assistants can aid in rotation execution, though manual usage of major cooldowns will yield higher DPS.
+
+---
+
+This guide provides a comprehensive overview and a detailed breakdown to optimize your Frost Death Knight gameplay in both single target and AoE situations, maximizing damage output and efficiency.

@@ -1,0 +1,117 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec Name**: Preservation Evoker
+- **Role**: Healer
+
+### Strengths and Weaknesses
+**Strengths:**
+- Extremely strong stacked healing through **Dream Breath** and **Emerald Blossom**.
+- Powerful party and raid cooldowns such as **Dream Flight**, **Rewind**, and **Zephyr**.
+- High mobility with **Hover**, **Verdant Embrace**, and **Rescue**.
+- Fairly high damage output with **Fire Breath** and various talent options.
+- Strong defensives through **Obsidian Scales**, with two charge potential from **Obsidian Bulwark**.
+
+**Weaknesses:**
+- Weak single-target healing capabilities.
+- Lack of strong emergency abilities aside from **Rewind**.
+- Empowered spells (e.g., **Dream Breath**, **Spiritbloom**, **Fire Breath**) have long cast times, making casting timely more difficult.
+- 30-yard range on most spells, complicating healing for spread allies.
+
+### When to Play This Spec
+- Best played in stacked environments for maximizing AoE healing.
+- Suitable for both raids and Mythic+ dungeons, especially in scenarios involving high raid damage.
+
+### Playstyle Description
+- The Preservation Evoker excels in using a flexible spell kit tailored to current in-game circumstances, focusing on area of effect healing and positioning to aid allies while maintaining mobility and damage output.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. **Maintain Stasis on cooldown** to store powerful heals (preferably **Spiritbloom**, **Dream Breath**, or **Temporal Anomaly**).
+2. Use **Tip the Scales** to enhance your next healing spell.
+3. Generate **Echos** using **Temporal Anomaly** as mana allows.
+4. Spend **Echos** on:
+   - **Verdant Embrace** (high burst healing)
+   - **Spiritbloom** (steady healing)
+   - **Dream Breath** (for heavy DoT situations)
+   - **Reversion** (if healing over time is needed).
+5. Utilize **Fire Breath** for damage and Essence generation.
+6. Cast **Living Flame** when not in a high-healing scenario to generate Essence Burst.
+7. Avoid overcapping on Essence.
+
+### Exact Cooldown Usage and Timing
+1. **Dream Flight**: Use when damage is incoming, targeting as many allies as possible.
+2. **Stasis**: Utilize to store powerful spells; only store weak spells if needed as fillers.
+3. **Rewind**: Activate after heavy damage spikes; healing is based on damage taken in the previous 5 seconds.
+4. **Tip the Scales**: Use in situations of unexpected damage for an instant heal.
+5. **Zephyr**: Use to reduce AoE damage for up to 5 allies.
+
+### Single Target Rotation
+1. **Verdant Embrace** on the target.
+2. Follow with an **Echo** on yourself.
+3. Cast **Spiritbloom** on yourself for maximum transfer of healing.
+
+### AoE/Cleave Rotation
+1. Cast **Emerald Blossom** as often as possible.
+2. Follow with **Temporal Anomaly** to generate Echos for area heals.
+3. Use **Dream Breath** to cover larger periods of sustained damage.
+4. Apply **Reversion** to maintain healing over time on multiple allies.
+
+### Opening Rotation/Opener Sequence
+1. Start with **Tip the Scales**.
+2. Follow with **Stasis** to store a powerful healing spell (e.g., **Dream Breath**).
+3. Use **Fire Breath** to generate essence.
+4. Cast **Living Flame** to build up essence.
+5. Start healing through **Verdant Embrace** and other healing abilities based on damage received.
+
+### Key Abilities with Their Effects, Cooldowns, and Resource Costs
+| Ability               | Effect                                                                  | Cooldown    | Resource Cost |
+|-----------------------|-------------------------------------------------------------------------|-------------|---------------|
+| Dream Breath          | AoE burst healing                                                        | 12s         | 2 Essence     |
+| Emerald Blossom       | Heals target and all allies within a radius                              | 15s         | 1 Essence     |
+| Temporal Anomaly      | Generates Echos and can be stored for later use                          | 30s         | 1 Essence     |
+| Verdant Embrace       | Instant cast that heals target and grants Lifebind buff                  | 30s         | 0 Essence     |
+| Rewind                | Heals based on damage taken in the last 5 seconds                       | 2 min       | 0 Essence     |
+| Fire Breath           | Deals damage and generates essence                                       | 12s         | 0 Essence     |
+| Stasis                | Stores a spell for delayed casting                                        | 1.5 min     | N/A           |
+| Zephyr                | Reduces AoE damage taken for allies                                       | 2 min       | 0 Essence     |
+
+### Ability Interactions and Synergies
+- **Verdant Embrace** followed by **Echo** and **Spiritbloom** allows for massive healing through Lifebind.
+- **Stasis** can be used to store spells like **Temporary Anomaly** so that you can use them effectively during a burst healing situation.
+
+### Rotation Conditionals
+- Use **Echo** primarily with **Verdant Embrace** to maximize burst healing when the raid is low on health.
+- Switch to **Emerald Blossom** in high spread damage situations where multiple allies are at risk.
+
+### Resource Management
+- **Essence** is central: never cap on it and prefer to spend it wisely on the correct healing abilities.
+- **Essence Burst** allows for powerful essence spending gains, particularly following spells like **Fire Breath** and **Living Flame**.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Maintain a good grip on your cooldowns to ensure maximum efficiency.
+- Use **Lifebind** strategically with abilities like **Emerald Communion** for massive healing bursts.
+
+### Common Mistakes
+- Forgetting to rotate cooldowns and not optimizing healing output based on group dynamics.
+- Overcapping on essence by failing to consume it with useful spells.
+
+### Macros
+- Recommended to have macros for **Emerald Blossom** and **Rewind** for quicker casting.
+
+### Addons
+- Use a healer-focused add-on that helps monitor cooldowns, and manage healing output effectively.
+
+### Any Other Relevant Information
+- Played effectively, Preservation Evokers can significantly contribute to raid healing through high mobility and strategic healing tool usage.
+
+---
+```

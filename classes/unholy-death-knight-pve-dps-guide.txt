@@ -1,0 +1,102 @@
+## Unholy Death Knight Class Guide
+
+### Class Overview
+- **Class/Spec Name and Role:** Unholy Death Knight, DPS (Damage Per Second)
+  
+- **Strengths and Weaknesses:**
+  - **Strengths:**
+    - High burst single-target damage.
+    - Excellent AoE damage potential with ability to scale with multiple targets.
+    - Strong survivability due to high self-sustain and tanky nature.
+    - Knockback prevention with Death's Advance.
+    - Immunity to some magical effects with Anti-Magic Shell.
+    - Effective ranged capabilities.
+  - **Weaknesses:**
+    - Limited utility in Mythic+.
+    - Requires significant setup for optimal damage in Mythic+ (especially with San'Layn).
+    - Mediocre single-target damage in Mythic+ compared to other specs.
+  
+- **When to Play this Spec:**
+  - Play Unholy Death Knight in raids and Mythic+ dungeons where thick AoE damage and survivability are required.
+  
+- **Playstyle Description:**
+  - The Unholy Death Knight relies on managing diseases and summoned undead minions to deal damage. The goal is to maximize burst damage windows and sustain damage over time with proper resource and cooldown management.
+
+---
+
+### Rotation & Abilities 
+
+#### Complete Priority Rotation
+1. **Single Target:**
+   - **Festering Strike** (to apply Festering Wounds)
+   - **Scourge Strike** (to burst wounds)
+   - **Outbreak** (to maintain Virulent Plague)
+   - **Vampiric Strike** (with Sudden Doom procs)
+   - **Death Coil** (when resource allows)
+   - **Soul Reaper** (if target below 35% HP)
+  
+2. **AoE/Cleave:**
+   - **Army of the Dead**
+   - **Raise Abomination**
+   - **Legion of Souls**
+   - **Death and Decay/Defile** (to burst wounds and Cleave)
+   - **Epidemic** (when hitting 5+ targets)
+   - **Scourge Strike / Clawing Shadows / Vampiric Strike** (to burst wounds)
+
+#### Exact Cooldown Usage and Timing
+- **Opening Rotation / Opener Sequence:**
+  1. Army of the Dead
+  2. Festering Strike
+  3. Raise Abomination
+  4. Apocalypse + Potion
+  5. Summon Gargoyle
+  6. Dark Transformation + Potion
+  7. Vampiric Strike (2 times, and use Death Coil on Sudden Doom)
+  8. Unholy Assault + Racial + Trinket
+  9. Legion of Souls
+
+- **Key Abilities:**
+  - **Dark Transformation:** 15s cooldown, transforms ghoul, cleaving effect.
+  - **Unholy Assault:** Instant applies 4 wounds, 20% damage buff, used on cooldown.
+  - **Apocalypse:** Summons undead, consumes wounds, visible cooldown of ~1.5 min.
+  - **Summon Gargoyle:** Buffs with Runic Power usage, up to 25s duration.
+  
+#### Ability Interactions and Synergies
+- **Festering Wounds** synergy with **Scourge Strike** and **Clawing Shadows** to maximize damage.
+- **Dark Transformation** and **Gargoyle** should be timed to maximize overall damage output.
+
+#### Rotation Conditionals
+- Use **Soul Reaper** when the target is below 35% for high burst damage.
+- Immediately refresh **Virulent Plague** with **Outbreak** as soon as it expires.
+- Always use **Death Coil** to avoid over-capping Runic Power.
+  
+#### Resource Management
+- Track **Runes:** Maxing Rune usage to ensure 3 Runes are recharging at any time.
+- **Runic Power:** Spend when you hit 80+ or proc **Sudden Doom**.
+
+---
+
+### Additional Info
+
+#### Tips and Tricks
+- Always align major cooldowns to optimize burst damage phases.
+- Utilize **Anti-Magic Shell** to absorb magic damage and generate extra Runic Power.
+- Practice managing the rotation to avoid capping Runic Power while maximizing usage of **Death Coil**.
+
+#### Common Mistakes
+- Overusing Festering Strike resulting in wasted potential if wounds are fully stacked.
+- Improper launching of cooldowns leading to damage loss; be disciplined with timing.
+- Not maintaining disease uptime or allowing **Virulent Plague** to fall off.
+
+#### Macros
+- Create macros for **Racial** and **Trinkets** to weave them seamlessly into your rotations, especially during burst phases.
+
+#### Addons
+- Utilize UI Addons to track **Runic Power**, **Runes**, and diseases effectively to ensure optimal play. 
+
+#### Any Other Relevant Information
+- The **Combat Assistant** feature offers a highlighting tool for ability usage, although optimal players typically outperform the assistance due to the artificial delay imposed by single-button setups.
+
+--- 
+
+This guide serves to provide comprehensive insights into playing the Unholy Death Knight effectively in PvE environments. Each aspect of the gameplay, from rotation to cooldown management, is crucial to mastering the spec and maximizing your DPS potential.

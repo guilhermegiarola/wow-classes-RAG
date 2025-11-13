@@ -1,0 +1,132 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Guardian Druid** - Tank specialization
+
+### Strengths and Weaknesses
+#### Strengths:
+- High single-target damage in raid
+- High AoE/Mythic+ damage
+- Large health pool
+- Short cooldowns result in stable damage intake
+- Stackable, no-cooldown active mitigation via **Ironfur**
+- Flexible hybrid off-healing capabilities through **After the Wildfire** and **Dream of Cenarius**
+- Good raid utility with **Rebirth**, **Stampeding Roar**, and **Mark of the Wild**
+
+#### Weaknesses:
+- Relatively low initial threat output
+- Lack of accessible crowd control options
+- Limited flexibility in talent tree
+- Absence of unique tank utilities
+
+### When to Play This Spec
+- Optimal against encounters with primarily physical or melee damage
+
+### Playstyle Description
+- Guardian Druids function as a sturdy tank, absorbing damage through high health and armor, and generating rage for both defensive and offensive capabilities. This specialization focuses on maintaining threat via damage-over-time abilities while managing immediate damage intake through cooldowns.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. Maintain **Moonfire**
+2. Maintain 5 stacks of **Thrash**
+3. Cast **Heart of the Wild** off cooldown
+4. Cast **Barkskin** off cooldown
+5. Cast **Maul** when possible
+6. Cast **Mangle**
+7. Cast **Thrash**
+8. Cast **Moonfire** (with **Galactic Guardian** proc)
+9. Cast **Incarnation: Guardian of Ursoc**
+10. Cast **Rage of the Sleeper**
+11. **Swipe** - lowest priority
+
+### Exact Cooldown Usage and Timing
+- **Barkskin**: 20% damage reduction for 12 seconds; 60-second cooldown
+- **Survival Instincts**: 50% damage reduction for 6 seconds; 3-minute cooldown, 2 charges
+- Use defensives proactively based on anticipated damage or spikes.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. Cast **Growl**
+2. Cast **Heart of the Wild**
+3. Cast **Moonfire**
+4. Cast **Thrash**
+5. Cast **Incarnation: Guardian of Ursoc**
+6. Cast **Thrash**
+7. Cast **Mangle**
+8. Cast **Thrash**
+9. Cast **Rage of the Sleeper**
+10. Cast **Maul (x3)**
+11. Cast **Mangle**
+12. Cast **Thrash**
+13. Cast **Maul (x3)**
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. Pull mobs with **Moonfire**
+2. Cast **Barkskin**
+3. Cast **Thrash**
+4. Cast **Mangle** to generate rage
+5. Dump rage into **Raze** while maintaining 1-3 stacks of **Ironfur**
+6. Cast **Thrash**
+7. Cast **Mangle**
+8. Dump rage into **Raze** again
+
+### Opening Rotation/Opener Sequence
+#### Single-Target Opener
+1. **Growl**
+2. **Heart of the Wild**
+3. **Moonfire**
+4. **Thrash**
+5. **Incarnation: Guardian of Ursoc**
+6. **Thrash**
+7. **Mangle**
+8. **Thrash**
+9. **Rage of the Sleeper**
+10. **Maul (x3)**
+
+### Key Abilities
+- **Ironfur**: Increase Armor by 112% of Agility for 7 seconds
+- **Frenzied Regeneration**: Heal for 20% of max health over 3 seconds, costs 10 Rage, max of 2 charges.
+- **Barkskin**: 20% damage reduction for 12 seconds
+- **Survival Instincts**: 50% damage reduction for 6 seconds
+
+### Ability Interactions and Synergies
+- Use **Moonfire** alongside **Galactic Guardian** for additional rage generation.
+- Maintain **Thrash** to keep Rage flowing while ensuring adequate stacks for **Ironfur**.
+
+### Rotation Conditionals (When to Use What)
+- Use **Ironfur** based on incoming damage; if a spike is expected, pool Rage to stack multiple uses.
+- **Frenzied Regeneration** should be used proactively or reactively based on anticipated or recent damage.
+
+### Resource Management
+- **Rage Generation**: 
+  - Start with 0, max out at 100.
+  - Gain Rage via auto-attacks, casting spells like **Mangle** (10 Rage), and others.
+  - Avoid capping Rage while ensuring enough for defensive measures like **Ironfur** or **Frenzied Regeneration**.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Monitor Rage carefully; prioritize using it when you can avoid capping while also preparing for defensive needs.
+- Always use **Barkskin** when anticipating high damage or Magic types.
+
+### Common Mistakes
+- Forgetting to maintain **Moonfire** or **Thrash** stacks.
+- Overlapping cooldowns unnecessarily can lead to wasted defensive resources.
+- Not pooling Rage for spike damage situations.
+
+### Macros
+- Set macros to track important procs like **Galactic Guardian** or **Tooth and Claw** to maximize damage efficiency.
+
+### Addons
+- Use WeakAuras for tracking procs to optimize rotation strategy.
+- Consider a damage meter to ensure you are performing adequately in raids or Mythic+.
+
+### Other Relevant Information
+- After learning basics, advanced techniques like **Catweaving** or strategic use of cooldowns can be explored for higher DPS while tanking.
+- Explore your talent choices and their impacts on your rotation and survivability.
+```

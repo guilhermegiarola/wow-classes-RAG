@@ -1,0 +1,112 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec**: Restoration Shaman
+- **Role**: Healer
+
+### Strengths and Weaknesses
+#### Strengths:
+- Can often cast while moving with **Spiritwalker's Grace** and quickly reposition with **Gust of Wind**.
+- Unique support tools: **Ancestral Vigor**, **Spirit Link Totem**, and **Ancestral Protection Totem**.
+- Great healing capability, especially in spread situations with no-healing rain builds.
+- Excellent survivability with abilities like **Astral Shift**, **Earth Elemental**, **Stone Bulwark Totem**, and passives such as **Brimming with Life**.
+- Solid non-healing capabilities, including **Skyfury**, **Reincarnation**, and various utility totems.
+
+#### Weaknesses:
+- Non-cooldown healing is mana inefficient or tied to high cast times.
+- Lacks tank cooldowns beyond **Spirit Link Totem**, which has a long cooldown.
+- Limited passive damage increase outside of **Acid Rain**, which is dependent on **Healing Rain** casts.
+- No teleport abilities or damage immunities; **Reincarnation** has a long cooldown.
+
+### When to Play This Spec
+- Ideal when healing groups of clumped players in both raids and Mythic+ dungeons.
+- Especially effective in handling unexpected and significant damage influx.
+
+### Playstyle Description
+The Restoration Shaman plays a flexible healing role, mainly using cooldown abilities like **Riptide**, **Healing Rain**, and **Chain Heal** strategically rather than following a fixed rotation. The playstyle revolves around reacting to group damage and adapting spell usage based on incoming threat levels while maintaining good mana management.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. **Set Cloudburst Totem** ahead of incoming damage.
+2. **Cast Unleash Life** followed by **Ancestral Swiftness** to enhance your next spell's healing.
+3. **Cast Riptide** on cooldown to build **Tidal Waves**.
+4. **Use Chain Heal** when multiple allies are damaged.
+5. **Heal** single-targets with **Healing Surge**, using **Master of the Elements** when possible.
+6. **DPS** using **Lava Burst** when healing is unnecessary.
+
+### Exact Cooldown Usage and Timing
+- **Cloudburst Totem**: Always cast on cooldown unless timing for a specific damage phase.
+- **Ancestral Swiftness**: Use preferably prior to large damage events to maximize the healing output.
+- **Healing Tide Totem**: Utilize as a baseline healing cooldown when grouped with allies.
+
+### Single Target Rotation (Detailed Step-by-Step)
+1. Apply **Riptide** to the target.
+2. Use **Healing Surge** as needed, prioritizing the **Master of the Elements** buff.
+3. Ensure **Tidal Waves** and **Ancestral Swiftness** are up for optimal healing output.
+
+### AoE/Cleave Rotation (Detailed Step-by-Step)
+1. **Set Cloudburst Totem** ahead of time.
+2. Use **Healing Rain** to heal and trigger **Acid Rain** bonuses.
+3. Cast **Chain Heal** whenever multiple targets are injured.
+4. Use **Unleash Life** before **Chain Heal** for increased healing.
+
+### Opening Rotation/Opener Sequence
+1. **Water Shield** and **Earth Shield** yourself and the tank before the encounter starts.
+2. At the pull, immediately cast **Riptide**, followed by **Healing Rain**, and then **Cloudburst Totem** if expecting a burst of damage.
+
+### Key Abilities with Effects, Cooldowns, and Resource Costs
+| Ability                         | Effect                                                                       | Cooldown           | Resource Cost  |
+|---------------------------------|-----------------------------------------------------------------------------|--------------------|----------------|
+| **Riptide**                     | Heals a target and applies a heal-over-time effect.                        | 6 seconds          | 0 mana         |
+| **Healing Rain**                | Heals players in an area continuously.                                     | 10 seconds         | 0 mana         |
+| **Chain Heal**                  | Heals multiple targets; bonuses increase healing based on buffs.           | No cooldown         | 0 mana         |
+| **Cloudburst Totem**            | Absorbs healing for later release.                                         | 120 seconds        | 0 mana         |
+| **Healing Tide Totem**          | Massive HoT for up to 5 allies, heals based on how many are affected.     | 120 seconds        | 0 mana         |
+| **Ascendance**                  | Doubles healing done and distributes among allies.                         | 3 minutes          | 0 mana         |
+
+### Ability Interactions and Synergies
+- **Riptide** enhances the effectiveness of **Chain Heal** when multiple targets are injured due to **Tidal Waves** mechanic.
+- Utilize **Ancestral Swiftness** before **Riptide** to amplify the follow-up healing spells.
+- **Cloudburst Totem** enables recovery of healing spent earlier in damage phases.
+
+### Rotation Conditionals
+- Use **Chain Heal** if multiple allies are injured; otherwise, focus on single-target healing with **Healing Surge**.
+- Save **Cloudburst Totem** for high damage periods for maximum return on healing.
+
+### Resource Management (Runes, Runic Power, etc.)
+- Maintain **Mana** sustainability through effective usage of utility spells during downtime.
+- Monitor your **Tidal Waves** stacks to optimize the timing on **Riptide** and **Healing Surge** casts.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Regularly check your **Mana** levels and adjust your spell casts accordingly.
+- Use **Ghost Wolf** to reposition quickly while keeping sustained healing.
+- Track your healing abilities with Weak Auras for optimal timing and cooldown management.
+
+### Common Mistakes
+- Allowing **Riptide** to fall off prematurely can significantly reduce your healing output.
+- Overhealing during low-damage phases can waste **Mana**; prioritize when necessary.
+
+### Macros
+- Consider creating macros for quickly casting **Riptide** and **Healing Surge** on focus targets.
+- Use **/cast [target=yourtarget] Healing Surge** to ensure quick responses when healing is needed.
+
+### Addons
+- **WeakAuras**: for tracking cool-downs and buffs.
+- **VuhDo**: for enhanced party/raid frames and management.
+- **ElvUI**: for overall UI improvement and efficiency during raids.
+
+### Any Other Relevant Information
+- Be familiar with various dungeon mechanics as a Restoration Shaman, as emergency utility spells play a big role in progression.
+- Regularly engage with community resources for updates on meta shifts, especially for tier set bonuses.
+
+--- 
+```
+This markdown document is organized according to your specified sections and formatting criteria. If you have any additional requests or need modifications, feel free to ask!

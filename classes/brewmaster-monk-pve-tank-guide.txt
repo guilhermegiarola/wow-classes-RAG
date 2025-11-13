@@ -1,0 +1,110 @@
+```markdown
+## Brewmaster Monk Class Overview
+
+### Class/Spec Name and Role
+- Brewmaster Monk (Tank)
+
+### Strengths and Weaknesses
+- **Strengths:**
+  - Strong damage intake management via **Stagger**, **Shuffle**, and **Mastery: Elusive Brawler**.
+  - High mobility with abilities like **Roll**, **Tiger's Lust**, and **Transcendence**.
+  - Flexibility in playstyle and mitigation strategies.
+  - Significant utility for Mythic+, such as **Detox**, **Paralysis**, and **Leg Sweep**.
+  - Unique **Mystic Touch** debuff for increased damage taken by targets.
+
+- **Weaknesses:**
+  - Low base health relative to other tank specializations.
+  - Requires many keybinds for optimal performance.
+  - Limited long-term self-sustain outside of **Expel Harm** and **Celestial Fortune**.
+  - Can be unintuitive in playstyle, leading to risk of mistakes.
+  - Often requires addons or WeakAuras for tracking **Stagger** effectively.
+
+### When to Play this Spec
+- Ideal for players who enjoy a blend of tanking and damage dealing.
+- A strong choice for both progression raiding and Mythic+ dungeons due to survivability and utility.
+  
+### Playstyle Description
+- Brewmaster Monks focus on managing incoming damage while maintaining high mobility. They utilize a mix of damage-dealing abilities to generate **Stagger** effects, dodging attacks to reduce damage taken. This specialization demands awareness of cooldown management and timing to maximize damage reduction and survival.
+
+---
+
+## Rotation & Abilities
+
+### Complete Priority Rotation
+1. Activate **Rushing Jade Wind** before combat.
+2. Use **Chi Burst** while moving to the target.
+3. Use **Keg Smash** on approach.
+4. Use **Blackout Kick**.
+5. Use **Tiger Palm**.
+6. Use **Breath of Fire**.
+7. Use **Rising Sun Kick** to trigger **Chi Wave**.
+8. Activate **Weapons of Order**.
+9. Use **Keg Smash**.
+10. Cycle through **Blackout Kick**, **Tiger Palm**, and **Rising Sun Kick** as able.
+
+### Exact Cooldown Usage and Timing
+- Maintain a rhythm by utilizing **Blackout Kick** every 4 seconds as it has a fixed cooldown, while managing **Purifying Brew**, **Celestial Brew**, and others as they come off cooldown. Use **Expel Harm** when healing spheres from **Gift of the Ox** are available.
+
+### Single Target Rotation
+1. Activate **Black Ox Brew** for energy restoration if low.
+2. Use **Touch of Death** when applicable.
+3. Use **Rising Sun Kick** at 10 stacks of **Press the Advantage**.
+4. Use **Blackout Kick** to trigger **Blackout Combo**.
+5. Use **Chi Burst**, prioritizing to maintain stacks of **Balanced Stratagem**.
+6. Continue using **Keg Smash**, **Rushing Jade Wind**, and **Spinning Crane Kick** based on resource availability and damage situations.
+
+### AoE/Cleave Rotation
+- Similar to the single target but prioritize hitting multiple mobs and maintain **Rushing Jade Wind** for damage. Utilize **Exploding Keg** cleverly to increase AoE damage and apply **Breath of Fire** and **Blackout Kick** at the right moments.
+
+### Opening Rotation/Opener Sequence
+- Same as above, ensuring you build setup to **Shuffle** for damage mitigation immediately at the start of a fight.
+
+### Key Abilities
+- **Keg Smash:** Main damage ability; procs **Shuffle** and interrupts.
+- **Blackout Kick:** Rotational ability that can trigger **Blackout Combo**.
+- **Breath of Fire:** Applies a debuff; strong in AoE situations.
+- **Rising Sun Kick:** Deals damage and triggers **Chi Wave**.
+- **Purifying Brew:** Removes **Staggered** damage; essential for survival.
+- **Celestial Brew/Celestial Infusion:** Absorbs damage based on missing health.
+  
+### Ability Interactions and Synergies
+- **Stagger:** Damage mitigation mechanic that splits damage into immediate and DoT effects.
+- **Shuffle:** Enhances **Stagger**, requiring activation through **Blackout Kick** or **Keg Smash**.
+- ***Weapons of Order:** Provided burst damage boost and resets **Keg Smash** cooldown.
+  
+### Rotation Conditionals
+- Prioritize defensive abilities when health drops low.
+- Use **Economic Charge** from abilities wisely, ensuring you bank resets effectively.
+  
+### Resource Management
+- Monitor **Energy**, **Stagger**, and cooldowns to maximize damage output and survivability.
+
+---
+
+## Additional Info
+
+### Tips and Tricks
+- Keep **Shuffle** active through careful coordination between abilities, especially following **Keg Smash**.
+- Use **Purifying Brew** effectively to manage your **Stagger** damage.
+
+### Common Mistakes
+- Forgetting to maintain **Shuffle** or **Stagger** leading to sudden spikes in damage received.
+- Irregular usage of **Purifying Brew**, causing loss of potential healing.
+
+### Macros
+- Suggested macros for abilities like **Touch of Death** and **Rushing Jade Wind** to streamline gameplay.
+
+### Addons
+- Utilize addons like **WeakAuras** for tracking **Stagger** and **Healing Sphere** counts effectively.
+
+### Other Relevant Information
+- **Invoke Niuzao, the Black Ox:** Active ability that transfers **Stagger** damage and helps mitigate incoming damage while adding damage output.
+- **Niuzao's Resolve:** Changes the healing properties of **Gift of the Ox** to a HoT, providing steady healing over time rather than bursts.
+
+---
+
+### Note on Patch Changes
+- Most strategies and abilities are adapted to version **11.2.5**, and can be altered in future patches.
+
+
+```

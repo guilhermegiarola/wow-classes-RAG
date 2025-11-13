@@ -1,0 +1,139 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec Name and Role
+- **Class/Spec Name**: Protection Warrior
+- **Role**: Tank
+
+### Strengths and Weaknesses
+- **Strengths**:
+  - Excels in high physical damage scenarios.
+  - Smooth damage intake due to blocking abilities.
+  - High mobility with abilities like Charge, Intervene, and Heroic Leap.
+  - Provides utility such as Rallying Cry, Battle Shout, and Shockwave.
+  - Capable of heavy AoE damage or focusing on single-target damage.
+  - Strong execute phase with Execute ability.
+  
+- **Weaknesses**:
+  - More punishing on mistakes compared to other tank classes.
+  - Weaker self-sustain in niche situations.
+  - Struggles against damage-over-time (DoT) effects and non-blockable damage.
+  - Ability consistency with Shield Block, Spell Block, and Spell Reflection can be variable.
+
+### When to Play This Spec
+- Ideal for fights involving significant physical damage.
+- Useful for encounters requiring high mobility and survivability.
+
+### Playstyle Description
+- Focuses on generating and managing Rage to maximize damage mitigation.
+- Uses various defensive abilities to smooth out incoming damage while maintaining threat on enemies.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete Priority Rotation
+1. Cast Avatar on cooldown.
+2. Cast Demoralizing Shout on cooldown (only with Booming Voice).
+3. Cast Champion's Spear.
+4. Cast Ravager on cooldown.
+5. Cast Demolish on cooldown.
+6. Cast Thunderous Roar.
+7. Cast Shield Charge.
+8. Cast Shield Slam on cooldown.
+9. Cast Thunder Blast whenever it procs.
+10. Cast Thunder Clap on cooldown.
+11. Cast Execute (if Rage management allows).
+12. Cast Revenge (if enemy health is above execute threshold and Rage management allows).
+
+### Exact Cooldown Usage and Timing
+- **Shield Block**: 
+  - Costs 30 Rage, lasts 6 seconds, has a 16-second recharge, provides block for melee attacks, and increases Shield Slam damage by 30%.
+- **Ignore Pain**: 
+  - Costs 35 Rage, reduces damage taken by a flat amount, maximum absorb cap at 30% of max HP, lasts 12 seconds.
+- **Ravager**: Generates up to 60 Rage if it hits all targets.
+- **Demoralizing Shout**: Generates 30 Rage if you have Booming Voice.
+
+### Single Target Rotation
+1. **Opener:**
+   1. Cast Ravager.
+   2. Cast Charge.
+   3. Cast Avatar as you Charge.
+   4. Cast Shield Block.
+   5. Cast Shield Slam.
+   6. Cast Demoralizing Shout (only with Booming Voice).
+   7. Cast Champion's Spear.
+   8. Cast Thunder Blast (1st).
+   9. Cast Shield Charge.
+   10. Cast Demolish.
+   11. Cast Thunder Blast (2nd).
+   12. Cast Thunderous Roar.
+   13. Cast Shield Charge.
+   14. Cast Thunder Clap.
+   15. Proceed with the ongoing ability priority.
+
+### AoE/Cleave Rotation
+1. **Opener:**
+   1. Cast Ravager.
+   2. Cast Charge.
+   3. Cast Avatar as you Charge.
+   4. Cast Shield Block.
+   5. Cast Demoralizing Shout (only with Booming Voice).
+   6. Cast Champion's Spear.
+   7. Cast Thunder Blast.
+   8. Cast Demolish.
+   9. Cast Thunderous Roar.
+   10. Cast Shield Charge.
+   11. Cast Thunder Blast.
+   12. Cast Thunder Clap.
+   13. Cast Revenge.
+
+### Opening Rotation/Opener Sequence
+- Refer to the single target opener above for the precise ability sequence.
+
+### Key Abilities and Their Effects
+| Ability              | Effect                                                                                     | Cooldown        | Resource Cost |
+|---------------------|--------------------------------------------------------------------------------------------|-----------------|---------------|
+| Shield Block        | Blocks melee attacks, reducing damage taken. Increases Shield Slam damage by 30%.        | 16 seconds      | 30 Rage       |
+| Ignore Pain         | Reduces damage taken by a flat amount. Can absorb up to 30% of max health.                | N/A             | 35 Rage       |
+| Ravager             | Deals damage over time and generates Rage.                                                   | 60 seconds      | 40 Rage       |
+| Demoralizing Shout  | Reduces enemy damage output, generates Rage with Booming Voice talent.                    | 30 seconds      | N/A           |
+| Execution           | Executes low-health targets for high damage.                                               | 20 seconds      | N/A           |
+| Thunder Clap        | Deals damage in a cone, generates Rage, applies Deep Wounds.                              | 6 seconds       | 10 Rage       |
+
+### Ability Interactions and Synergies
+- **Execute** can reset Shield Slam cooldown if the target's health is below 20%.
+- Use Thunder Clap early to generate threat and Deep Wounds before switching to Shield Slam.
+
+### Rotation Conditionals
+- Use Ignore Pain if at risk of capping Rage or if engaging with significant damage.
+- Cast Shield Slam when available; it can be reset by certain actions such as using Revenge.
+
+### Resource Management
+- **Rage** decays at 1 per second when out of combat, but not when fighting.
+- Max capacity of Rage is 100. Managing Rage is crucial to prevent waste.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and Tricks
+- Use Shield Block to mitigate most incoming damage, especially physical.
+- Delay Shield Blocks for potential incoming high damage hits.
+- Regularly refresh Ignore Pain to maintain consistent absorption.
+
+### Common Mistakes
+- Rage capping due to inefficient usage of abilities like Ignore Pain and Revenge.
+- Delaying important defensive cooldowns like Shield Wall and Last Stand.
+
+### Macros
+- Tailor macros for quickly using Shield Block, Ignore Pain, or cooldowns with specific priority conditions.
+
+### Addons
+- Use addons to track cooldowns and resource management efficiently. Consider WeakAuras for visual cues on buffs/debuffs.
+
+### Other Relevant Information
+- The tier set effects present opportunities to enhance synergy, particularly with the Mountain Thane build.
+- Mastering the timing of abilities is key, specifically coordinating major cooldowns with high damage phases in encounters.
+
+```

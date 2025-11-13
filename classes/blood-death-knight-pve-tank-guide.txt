@@ -1,0 +1,128 @@
+```markdown
+## CLASS OVERVIEW
+
+### Class/Spec name and role
+- **Name:** Blood Death Knight
+- **Role:** Tank
+
+### Strengths and weaknesses
+#### Strengths
+- Wide array of cooldowns for all situations:
+  - Anti-Magic Shell
+  - Icebound Fortitude
+  - Lichborne
+  - Vampiric Blood
+- Immunities:
+  - Stun (Icebound Fortitude)
+  - Knockbacks (Death's Advance)
+  - Charm/Sleep/Fear (Lichborne)
+- Utility:
+  - Ranged interrupt
+  - 90% snare
+  - Combat resurrection
+  - Short-duration magic debuff immunity
+  - Purgatory (uncapped cheat death talent)
+- Predictable, simple rotation, with options for skilled players to maximize effectiveness.
+- Reactive self-healing based on damage taken.
+- Designed to absorb upfront damage and heal back.
+
+#### Weaknesses
+- Proper cooldown usage and planning are critical; feedback on improper play may not be immediate.
+- Limited AoE damage capabilities, especially in high-density pulls.
+  
+### When to play this spec
+- Effective in both raids and Mythic+ dungeons with the proper management of abilities.
+
+### Playstyle description
+- The Blood Death Knight utilizes self-healing through **Death Strike** as a primary source of damage mitigation, making the clever optimization of Runic Power essential for survivability. The playstyle involves adjusting defensive and offensive cooldowns based on situational needs, allowing for sustained tanking while minimizing incoming damage.
+
+---
+
+## ROTATION & ABILITIES
+
+### Complete priority rotation
+1. Pre-place **Death and Decay** where you will be fighting.
+2. Pull from range with **Death's Caress**.
+3. Use **Blooddrinker**.
+4. Use **Dancing Rune Weapon** during the last 0.75 seconds of **Blooddrinker**.
+5. Cast **Blood Boil** to pandemic **Blood Plague** to its maximum value and apply two copies from **Dancing Rune Weapon**.
+6. Press **Bonestorm**.
+7. Cast **Death Strike** if above 35 Runic Power, otherwise use **Vampiric Strike**, until 4 seconds left on **Dancing Rune Weapon**.
+8. Continue casting **Death Strike** or **Vampiric Strike** until **Dancing Rune Weapon** fades.
+9. Cast **Consumption** with 4 seconds left on **Dancing Rune Weapon**.
+10. Continue casting **Vampiric Strike** unless you have enough Runic Power for **Death Strike**.
+11. If there are more than 4 targets, use **Death and Decay** if not buffed.
+12. Press **Heart Strike**.
+13. Press **Tombstone**.
+
+### Exact cooldown usage and timing
+- Use cooldowns (like **Dancing Rune Weapon**) primarily for resource generation, peaking your DPS, and survivability.
+  
+### Single target rotation
+- Refer to the complete priority rotation above, adjusted for single target (if you are solely focused on one boss).
+
+### AoE/cleave rotation
+- As above, but prioritize **Death and Decay** more after applying **Blood Boil** to as many targets as possible, and be sure to trigger **Crimson Scourge** for additional **Death and Decay** usage.
+
+### Opening rotation/opener sequence
+- Same steps as described in the complete rotation, from the pre-placed **Death and Decay** at pull to the execution of your cooldowns.
+
+### Key abilities with their effects, cooldowns, and resource costs
+- **Death Strike**
+  - Effect: Heals you based on damage taken in the last 5 seconds.
+  - Resource Cost: Runic Power.
+  
+- **Dancing Rune Weapon**
+  - Effect: Grants a 35% chance to parry, increases damage, and resource generation.
+  - Cooldown: 1 minute.
+
+- **Blooddrinker**
+  - Effect: Channels to heal and forms a connection to the target.
+  - Cooldown: 1.5 minutes.
+
+- **Anti-Magic Shell**
+  - Effect: Absorbs magic damage up to 30% of maximum health.
+  - Cooldown: 45 seconds.
+
+- **Vampiric Blood**
+  - Effect: Increases maximum health and healing received by 30%.
+  - Cooldown: 1.5 minutes.
+
+- **Icebound Fortitude**
+  - Effect: Reduces all damage taken by 30% for 8 seconds, immune to stuns.
+  - Cooldown: 8 minutes.
+
+### Ability interactions and synergies
+- **Tombstone**: Should be used when **Dancing Rune Weapon** is on cooldown and you have 6+ Bone Shield charges.
+- **Bonestorm**: Should be used strategically along with **Tombstone** and **Death and Decay** for optimal generation from both abilities.
+
+### Rotation conditionals (when to use what)
+- **Use Death Strike** when health is low or when approaching maximum Runic Power.
+- **Marrowrend** when Bone Shield charges are low (5 or fewer).
+- **Consumption** is prioritized for Runic Power efficiency.
+
+### Resource management
+- **Runes**: Six total, consuming a rune generates 10 Runic Power.
+- **Runic Power**: Max is 125 (145 with **Rune of Hysteria**). Vital to not let it cap and to efficiently use it with **Death Strike**.
+
+---
+
+## ADDITIONAL INFO
+
+### Tips and tricks
+- Always be mindful of both your cooldowns and how to chain abilities effectively for maximum survivability.
+- Utilize **Death Strike** wisely—don't let Runic Power cap.
+
+### Common mistakes
+- Overlapping **Blooddrinker** and **Dancing Rune Weapon** can lead to poor resource generation.
+- Failing to pre-place **Death and Decay** can hinder your opener effectiveness.
+
+### Macros
+- Use macros to combine **Death Grip** with **Death's Caress** for quick taunting and pulling.
+
+### Addons
+- Addons that track your cooldowns and resource generation can aid significantly in optimizing your performance in raids and dungeons.
+
+### Any other relevant information
+- The new Combat Assistant mode has limitations that can significantly impact the performance of a Blood Death Knight post-cast and should be approached cautiously for tanking roles.
+```
