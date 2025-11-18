@@ -99,7 +99,7 @@ The backend will be available at `http://localhost:8000`
 
 ## Frontend Setup (Coming Soon)
 
-The frontend will be a React application that provides a user-friendly interface for querying the RAG system.
+The frontend is a React application that provides a user-friendly interface for querying the RAG system.
 
 ### Prerequisites
 - Node.js 16+
@@ -133,7 +133,7 @@ The frontend will be available at `http://localhost:3000`
 - **React**: UI framework
 - **Axios**: HTTP client for API calls
 - **React Router**: Navigation
-- **TailwindCSS** or **Material-UI**: Styling (TBD)
+- **CSS**: Styling (TBD)
 
 ## Development
 
