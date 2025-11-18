@@ -2,6 +2,18 @@
 
 A full-stack application that uses RAG (Retrieval-Augmented Generation) to answer questions about World of Warcraft classes.
 
+### Covered Classes
+- Blood, Frost and Unholy Death Knight
+- Havoc and Vengeance Demon Hunter
+- Windwalker, Mistweaver and Brewmaster Monk
+- Protection Warrior
+- Protection Paladin
+- Guardian and Restoration Druid
+- Holy and Discipline Priest
+- Restoration Shaman
+- Preservation Evoker
+
+
 ## Project Structure
 
 ```
