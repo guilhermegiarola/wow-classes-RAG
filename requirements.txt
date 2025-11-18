@@ -1,6 +1,6 @@
-fastapi
-beautifulsoup4 
-requests
-pymilvus
-markdown-text-clean
-python-dotenv
+# Backend dependencies are in api/requirements.txt
+# Install backend dependencies with: pip install -r api/requirements.txt
+
+# For development, you can install both frontend and backend dependencies:
+# Backend: pip install -r api/requirements.txt
+# Frontend: cd frontend && npm install

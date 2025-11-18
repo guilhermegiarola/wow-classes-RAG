@@ -25,7 +25,7 @@ headers = {
 
 def get_article_content(article_content: str, debug_filename='debug_extracted_text.txt'):
     # Use path relative to this file's location
-    query_txt_path = os.path.join(os.path.dirname(__file__), 'query.txt')
+    query_txt_path = os.path.join(os.path.dirname(__file__), 'extraction_query.txt')
     
     with open(query_txt_path, 'r', encoding='utf-8') as f:
         query_template = f.read()
@@ -268,11 +268,26 @@ def retrieve_answers(query_text: str):
     )
 
     print("Search results: ", search_res)
-    
+
     # Check if we have results
     if not search_res[0]:
         return {'message': 'No results found', 'success': False}
-    
+
+    # Check relevance threshold - if top result score is too low, query is completely unrelated
+    # Lower threshold allows greetings through, but blocks totally unrelated topics
+    relevance_threshold = 0.3  # Lower threshold to allow more queries through to the LLM
+    top_score = search_res[0][0]['distance']
+
+    if top_score < relevance_threshold:
+        return {
+            'message': 'Query not related to WoW classes',
+            'response': {
+                'message': 'I\'m a World of Warcraft class guide expert. I can only help with questions about WoW classes, specs, rotations, and gameplay. Feel free to ask me anything about World of Warcraft!'
+            },
+            'is_relevant': False,
+            'confidence_score': top_score
+        }
+
     # Take top results regardless of class (up to 8 chunks)
     top_results = search_res[0][:8]
     
@@ -300,22 +315,12 @@ def retrieve_answers(query_text: str):
     primary_score = search_res[0][0]['distance']
     classes_list = list(classes_involved.keys())
     
-    llm_query = f"""You are a World of Warcraft class guide expert. 
-    Answer the user's question based on the provided context.
-
-    Context from relevant class guides:
-    {context}
-
-    User Question:
-    {query_text}
-
-    Instructions:
-    - Answer based ONLY on the provided context
-    - If multiple classes are mentioned, address each one relevant to the question
-    - Format your response in clear, well-organized markdown
-    - If the context doesn't contain enough information, say so
-    - Be concise but comprehensive
-    """
+    # Load query template from file
+    main_query_path = os.path.join(os.path.dirname(__file__), 'main_query.txt')
+    with open(main_query_path, 'r', encoding='utf-8') as f:
+        query_template = f.read()
+    
+    llm_query = query_template.format(context=context, query_text=query_text)
 
     llm_response = generate_llm_response(llm_query)
 
