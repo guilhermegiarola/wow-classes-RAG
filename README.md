@@ -141,8 +141,4 @@ The backend requires the following environment variables in `api/.env`:
 
 ## License
 
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
+[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html&hl=pt&sl=en&tl=pt&client=srp)
