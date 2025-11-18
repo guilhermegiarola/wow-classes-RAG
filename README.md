@@ -31,7 +31,7 @@ wow-classes-rag/
 │   ├── requirements.txt          # Python dependencies
 │   ├── run_server.sh             # Backend startup script
 │   └── milvus.db                 # Vector database (generated)
-├── frontend/                     # Frontend (React) - to be created
+├── app/                     # Frontend (React)
 ├── run_server.sh                 # Backend startup script (root level)
 ├── requirements.txt              # Dependency reference
 ├── .gitignore                    # Root gitignore
