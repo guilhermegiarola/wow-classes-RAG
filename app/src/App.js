@@ -1,6 +1,6 @@
-import './App.css';
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import './App.css';
 
 function App() {
   const [inputText, setInputText] = useState('');
@@ -35,61 +35,26 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '100vh',
-        padding: '20px'
-      }}>
-        <div style={{
-          maxWidth: '800px',
-          width: '100%',
-          textAlign: 'center'
-        }}>
+      <div className="app-container">
+        <div className="content-wrapper">
           <input
             type="text"
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             onKeyPress={(e) => e.key === 'Enter' && handleSubmit()}
             placeholder="Enter your question..."
-            style={{
-              width: '100%',
-              padding: '12px',
-              fontSize: '16px',
-              borderRadius: '8px',
-              border: '2px solid #ddd',
-              marginBottom: '20px',
-              boxSizing: 'border-box'
-            }}
+            className="input-field"
           />
           <button
             onClick={handleSubmit}
-            style={{
-              padding: '12px 24px',
-              fontSize: '16px',
-              borderRadius: '8px',
-              border: 'none',
-              backgroundColor: '#007bff',
-              color: 'white',
-              cursor: 'pointer',
-              marginBottom: '40px'
-            }}
+            className="submit-button"
           >
             Submit
           </button>
         </div>
 
         {aiResponse && (
-          <div style={{
-            maxWidth: '800px',
-            width: '100%',
-            textAlign: 'left',
-            padding: '20px',
-            backgroundColor: '#f5f5f5',
-            borderRadius: '8px'
-          }}>
+          <div className="response-container">
             <ReactMarkdown>{aiResponse}</ReactMarkdown>
           </div>
         )}
